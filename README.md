@@ -16,7 +16,7 @@ Many analyses included in this summary compare IS2 performance to that of the GM
 
 GMSTs improved over the complete set of puzzles issued between January 1, 2018 and January 13, 2024 (**Figure 1**), with fairly dramatic improvement seen early on for some puzzle days and graded improvement continuing for each puzzle day until the end of the sample period (top panel). The 2-year interval density plots of raw solve time distributions (bottom panels) show that performance on individual puzzle days became more consistent over time (higher peaks with narrower distributions). Because I did not have access to the raw solver data from which the GMSTs were drawn, however, it's not possible to disentangle improvement for individual "early adopters" of Matt's tracking software versus stronger solvers joining the solver pool over time. Note also that GMS performance is tracked in my analyses by puzzle issue date, as I did not have access to GMS puzzle completion dates. It's reasonably safe to assume, however, that the GMS (a different individual solver for most puzzles, presumably) solved in approximately the sequence of puzzle issue. IS2 performance, however, is tracked by puzzle completion data since I *was* able to obtain completion timestamps for their solves with Matt's assistance.  
 
-**Figure 1. GMS Solve Time 10-Puzzle Moving Averages and Distributions by Puzzle Day (2-Year Issue Date Intervals)**
+**Figure 1. GMS Solve Time 10-Puzzle Moving Averages and Distributions by Puzzle Day**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/0c05e987-716c-47a9-bd79-9514479fb1b5)
 
 ## Results
@@ -26,15 +26,19 @@ IS2 solved N = 1,024 puzzles in the sample period: 89 (8.7%) in 2018, 9 in 2019 
 
 IS2's per-puzzle day 10-puzzle moving averages across the sample period are shown in **Figure 2** (top panel). The first 5 years were characterized by long periods of little solve activity (flat stretches in lines) punctuated by rapid and dramatic improvements across puzzle days during months-long bursts of activity. Rapid improvements across puzzle days were then seen again across puzzle days when solving resumed in early 2023, followed by an abrupt increase in solve times (potentially related to transient health issues; **Supplementary Figure 1** shows that solve time volatility in 2023 was *not* likely due to coincidental cyclical changes in the difficulty of puzzles). From the middle of 2023 until the end of the sample period, IS2 once again showed dramatic improvement even relative to pre-transient upward spike baselines. Improvement over the last ~8 months of the sample period was especially apparent on the more difficult puzzle days (Thu-Sun). Leftward shifts of peaks and reduced bimodality of by-day solve time distributions in the 2023/2024 density plot (**Fig. 2** bottom right) also demonstrate this recent improvement in solve form. 
 
-**Figure 2. 10-Puzzle Solve Time Moving Averages and Distributions by Puzzle Day (2- or 3-Year Solve Date Intervals)**
+**Figure 2. 10-Puzzle Solve Time Moving Averages and Distributions by Puzzle Day**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/b0bfe922-8742-40a1-80f6-d132bd105614)
 
 
-**Figure 3** shows IS2's complex solve time performance trajectory in 2-3 year interval violin plots with swarm plot overlays. These representations may be somewhat easier to digest than the line plots in **Fig. 2**, as it removes the visual compressing effect of the long intervals with minimal solve activity. They also have the advantage of giving a clear visual sense of the number of solves per interval. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve year. Black lines on the violin plot demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times.**   
+**Figure 3** shows IS2's complex solve time performance trajectory in 2-3 year solve interval violin plots with swarm plot overlays. These representations may be somewhat easier to digest than the line plots in **Fig. 2**, as it removes the visual compressing effect of the long intervals with minimal solve activity. They also have the advantage of giving a clear visual sense of the number of solves per interval. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve year. Black lines on the violin plot demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times.**   
 
-**Figure 3. Violin Plots With Swarm Plot Overlay by Puzzle Day (2- or 3-Year Solve Date Intervals)**
+**Figure 3. Violin Plots With Swarm Plot Overlay by Puzzle Day**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/f783bca2-b950-4449-aaf5-d27039787bbd)
 
+*<h5>Median[IQR] solve time (m), per puzzle day, per solve interval:*<br>
+*2018/19: Sun: 69.3[59.4-82.2], Mon: 10.3[8.7-11.8], Tue: 15.4[11.2-24.5], Wed: 21.5[14.9-34.2], Thu: 43.4[39.6-63.8], Fri: 33.3[30.7-48.5], Sat: 52.0[41.7-55.7]*<br>
+*2020-22: Sun: 43.0[36.6-52.4], Mon: 7.1[5.9-8.2], Tue: 10.6[8.7-12.6], Wed: 14.0[11.5-20.0], Thu: 25.0[18.2-31.0], Fri: 26.3[18.4-32.0], Sat: 34.8[28.0-50.4]*<br>
+*2023/24: Sun: 32.7[27.1-41.1], Mon: 5.7[4.8-6.5], Tue: 7.4[6.8-8.6],   Wed: 11.9[9.8-14.3], Thu: 19.7[15.8-26.4], Fri: 19.4[15.0-25.0], Sat: 26.4[20.3-36.7]*<br>
 
 
 
