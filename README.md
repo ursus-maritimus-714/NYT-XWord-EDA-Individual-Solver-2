@@ -56,6 +56,12 @@ The next series of figures directly compare IS2 solve performance to that of the
 *2023/24:    Sun: 2.2(8.6), Mon: 0(1.2), Tue: -.48(1.1), Wed: .44(3.2), Thu: 3.4(7.1), Fri: 3.9(8.7), Sat: 8.8(12.9)*<br>
 
 
+
+
+
+
+
+
 # Supplementary Figures
 
 **<h4>Supplementary Figure 1. IS2 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance by Puzzle Day** 
