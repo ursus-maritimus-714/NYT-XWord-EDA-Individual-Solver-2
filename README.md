@@ -44,9 +44,15 @@ IS2's per-puzzle day 10-puzzle moving averages across the sample period are show
 
 The next series of figures directly compare IS2 solve performance to that of the GMS over the same set of puzzles. **Figure 4** shows per-puzzle day scatterplots of raw GMSTs (x-axis) versus IS2 solve times (y-axis), broken down by pre-2023 (lighter dots) and 2023/24 (darker dots) IS2 solve dates. Points falling on the dashed diagonal line represent identical raw solve times for IS2 and GMST on a given puzzle, points above and below this line represent "wins" for the GMS and IS2, respectively. Win %s for IS2 increased dramatically for most puzzle days in 2023/24, including a nearly 2x increase (37.2% to 68.9%) for Tuesday. The lowest IS2 win % for both time intervals was for Saturday, which was in stark contrast to IS1 (see the analogous figure in the IS1 summary). Also in contrast to IS1, Monday was the day with the highest and second highest win rates in the pre-2023 and 2023-2024 intervals, respectively, for IS2 (Mon had the lowest win rate in each interval for IS1). The regression lines show that there were moderate-to-strong correlations (ranging from .54 to .81) in solve times between IS1 and GMS (typically much stronger than those seen for IS1 vs GMS). The downward shift in each puzzle day's regression lines for the 2023-2024 solve interval indicates improved performance relative to the GMS (though a caveat in interpretation here is that IS2 solved many older puzzles in 2023-2024, so the GMS was earlier on "their" own improvement curve when solving the same puzzles).  
 
-
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/64fb4d75-122c-40f2-b29b-0d91fc36fd80)
 
+*<h5> Win Percentage for IS2 vs GMS, by IS2 solve interval:*<br>
+*pre-2023: Sun: 25.8, Mon: 51.2, Tue: 37.2, Wed: 33.8, Thu: 24.7, Fri: 26.1, Sat: 21.1*<br>
+*2023/24:  Sun: 44.6, Mon: 62.3, Tue: 68.9, Wed: 51.6, Thu: 37.8, Fri: 37.3, Sat: 26.2*<br>
+
+*<h5> Mean(stdev) Solve Time Difference (m) for IS2 vs GMS, by IS2 solve interval (negative denotes faster for IS2):*<br>
+*pre-2023:   Sun: 9.0(13.4), Mon: .54(2.3), Tue: 1.6(3.4), Wed: 2.9(2.1), Thu: 7.9(11.1), Fri: 7.1(11.7), Sat: 13.2(15.2)*<br>
+*2023/24:    Sun: 2.2(8.6), Mon: 0(1.2), Tue: -.48(1.1), Wed: .44(3.2), Thu: 3.4(7.1), Fri: 3.9(8.7), Sat: 8.8(12.9)*<br>
 
 
 # Supplementary Figures
