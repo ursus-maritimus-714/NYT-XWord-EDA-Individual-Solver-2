@@ -7,7 +7,7 @@ This summary reports on exploratory data analysis (EDA) of an individual solver'
 
 This project would not have been possible without access to two key data sources. The first, [XWord Info: New York Times Crossword Answers and Insights](https://www.xwordinfo.com/), was my source for data on the puzzles themselves. This included a number of proprietary metrics pertaining to the grids, answers, clues and constructors. XWord Info has a contract with NYT for access to the raw data underlying these metrics, but I unfortunately do not. Therefore, I will not be able to share raw or processed data that I've acquired from their site (though [Jupyter notebooks](https://jupyter.org/) with all of my Python code for analysis and figure generation can be found [here](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/tree/main/notebooks)). The second, [XWStats](xwstats.com), was my source for historical solve time data (for both IS2 and the GMS). 
 
-The same analyses reported here for IS2 here were also carried out for my own (IS1) data, and are summarized [here]().
+The same analyses reported here for IS2 here were also carried out for my own (IS1) data, and are summarized [here](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-1?tab=readme-ov-file#readme).
 
 ### The Global Median Solver (GMS)
 
