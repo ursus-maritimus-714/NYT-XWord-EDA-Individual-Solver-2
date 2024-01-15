@@ -40,6 +40,12 @@ IS2's per-puzzle day 10-puzzle moving averages across the sample period are show
 *2020-22: Sun: 43.0[36.6-52.4], Mon: 7.1[5.9-8.2], Tue: 10.6[8.7-12.6], Wed: 14.0[11.5-20.0], Thu: 25.0[18.2-31.0], Fri: 26.3[18.4-32.0], Sat: 34.8[28.0-50.4]*<br>
 *2023/24: Sun: 32.7[27.1-41.1], Mon: 5.7[4.8-6.5], Tue: 7.4[6.8-8.6],   Wed: 11.9[9.8-14.3], Thu: 19.7[15.8-26.4], Fri: 19.4[15.0-25.0], Sat: 26.4[20.3-36.7]*<br>
 
+### Individual Solver 2 (IS2) Performance Vs Global Median Solver (GMS) 
+
+The next series of figures directly compare IS2 solve performance over time versus that of the GMS over the same set of puzzles. **Figure 4** shows per-puzzle day scatterplots of raw GMSTs (x-axis) versus IS2 solve times (y-axis), broken down by pre-2023 (lighter dots) and 2023/24 (darker dots) IS1 solve dates. Points falling on the dashed diagonal line represent identical raw solve times for IS2 and GMST on a given puzzle, points above and below this line represent "wins" for the GMS and IS1, respectively. Win %s for IS2 increased dramatically for most puzzle days in 2023/24 relative to pre-2023 solves, including a nearly 2x increase (37.2% to 68.9%) for Tuesday puzzles. The lowest IS2 win % for both time intervals was for Saturday puzzles, which is in stark contrast to IS1's performance (see the analogous figure in the IS1 summary). Also in contrast to IS1, Monday was the day with the highest and second highest win rates in the pre-2023 and 2023-2024 intervals, respectively, for IS2 (it was the day with the lowest win rate in each interval for IS1). The regression lines show that there were moderate-to-strong correlations (ranging from .54 to .81) in solve times between IS1 and GMS (typically much stronger than those seen for IS1 vs GMS). The downward shift in each puzzle day's regression lines for the 2023-2024 solve interval indicates improved performance relative to the GMS (though a caveat in interpretation here is that IS2 solved many older puzzles in 2023-2024, so the GMS was earlier on its improvement curve when solving the same puzzles).  
+
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/64fb4d75-122c-40f2-b29b-0d91fc36fd80)
 
 
 
