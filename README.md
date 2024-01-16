@@ -22,15 +22,17 @@ GMSTs improved over the complete set of puzzles issued between January 1, 2018 a
 ## Results
 ### Individual Solver 2 (IS2) Performance Over Time
 
-IS2 solved N = 1,024 puzzles in the sample period: 89 (8.7%) in 2018, 9 in 2019 (.8%), 282 in 2020 (27.5%), 28 (2.7%) in 2021, 79 (7.7%) in 2022, and 499 (48.8%) in 2023/24 (through Jan. 13, 2024). The total solve time for IS1 was 16.6 days (2018: 2.2 days; 2019: .14 days; 2020: 5.1 days; 2021: .25 days; 2022: .97 days; 2023/24: 8.0 days). The total solve time for the GMS over this same set of puzzles was 13.6 days. 
+IS2 solved N = 1,024 puzzles in the sample period: 89 (8.7%) in 2018, 9 in 2019 (.8%), 282 in 2020 (27.5%), 28 (2.7%) in 2021, 79 (7.7%) in 2022, and 537 (52.4%) in 2023/24 (through Jan. 13, 2024). The total solve time for IS1 was 16.6 days (2018: 2.2 days; 2019: .14 days; 2020: 5.1 days; 2021: .25 days; 2022: .97 days; 2023/24: 8.0 days). The total solve time for the GMS over this same set of puzzles was 13.6 days. 
 
-IS2's per-puzzle day 10-puzzle moving averages across the sample period are shown in **Figure 2** (top panel). The first 5 years were characterized by long periods of little solve activity (flat stretches in lines) punctuated by rapid and dramatic improvements across puzzle days during months-long bursts of activity. Rapid improvements across puzzle days were then seen again across puzzle days when solving resumed in early 2023, followed by an abrupt increase in solve times (potentially related to transient health issues; **Supplementary Figure 1** shows that the solve time volatility in early 2023 was *not* likely due to coincidental cyclical changes in the difficulty of puzzles). From the middle of 2023 until the end of the sample period, IS2 once again showed dramatic improvement even relative to pre-transient upward spike baselines. Improvement over the last ~8 months of the sample period was especially apparent on the more difficult puzzle days (Thu-Sun). Leftward shifts of peaks and reduced bimodality of by-day solve time distributions in the 2023/2024 density plot (**Fig. 2** bottom right) also demonstrate this recent improvement in solve form. 
+IS2's per-puzzle day 10-puzzle moving averages across the sample period are shown in **Figure 2** (top panel). The first 5 years were characterized by long periods of little solve activity (flat stretches in lines) punctuated by rapid and dramatic improvements across puzzle days during months-long bursts of activity. There was a short-term ("spiked") increase in solve times across puzzles days shortly after significant solving resumed after a long layoff in Q2 2023. Then, from late Q3 2023 through the end of the sample period, IS2 showed dramatic improvement across puzzle days relative to even pre-spike baselines. **Supplementary Figure 1** shows that the solve time in 2023 was *not* likely due to an extended run of unusually difficult puzzles. Improvement over the last ~4 months of the sample period was especially apparent on the more difficult puzzle days (Thu-Sun). Leftward shifts of peaks and reduced bimodality of by-day solve time distributions in the 2023/2024 density plot (**Fig. 2** bottom right) also demonstrate this recent improvement in solve form. 
 
 **Figure 2. 10-Puzzle Solve Time Moving Averages and Distributions by Puzzle Day**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/b0bfe922-8742-40a1-80f6-d132bd105614)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/820dfbae-1053-4eab-ad0c-f55f04e721ac)
 
 
-**Figure 3** shows IS2's complex solve time performance trajectory in 2-3 year solve interval violin plots with swarm plot overlays. These representations may be somewhat easier to digest than the line plots in **Fig. 2**, as it removes the visual compressing effect of the long intervals with minimal solve activity. They also have the advantage of giving a clear visual sense of the number of solves per interval. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve year. Black lines on the violin plot demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times.**   
+
+
+**Figure 3** shows IS2's solve time performance trajectory in 2-3 year solve interval violin plots with swarm plot overlays. These representations may be somewhat easier to digest than the line plots in **Fig. 2**, as it removes the visual compressing effect of the long intervals with minimal solve activity. They also have the advantage of giving a clear visual sense of the number of solves per interval. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve year. Black lines on the violin plot demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times.**   
 
 **Figure 3. Violin Plots With Swarm Plot Overlay by Puzzle Day**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/f783bca2-b950-4449-aaf5-d27039787bbd)
@@ -39,6 +41,15 @@ IS2's per-puzzle day 10-puzzle moving averages across the sample period are show
 *2018/19: Sun: 69.3[59.4-82.2], Mon: 10.3[8.7-11.8], Tue: 15.4[11.2-24.5], Wed: 21.5[14.9-34.2], Thu: 43.4[39.6-63.8], Fri: 33.3[30.7-48.5], Sat: 52.0[41.7-55.7]*<br>
 *2020-22: Sun: 43.0[36.6-52.4], Mon: 7.1[5.9-8.2], Tue: 10.6[8.7-12.6], Wed: 14.0[11.5-20.0], Thu: 25.0[18.2-31.0], Fri: 26.3[18.4-32.0], Sat: 34.8[28.0-50.4]*<br>
 *2023/24: Sun: 32.7[27.1-41.1], Mon: 5.7[4.8-6.5], Tue: 7.4[6.8-8.6],   Wed: 11.9[9.8-14.3], Thu: 19.7[15.8-26.4], Fri: 19.4[15.0-25.0], Sat: 26.4[20.3-36.7]*<br>
+
+###
+Because over half of IS2' total solves (n=537) came in 2023-2024, and there was such rapid and dramatic improvement over the latter ~1/3 of that time range, zoom-in and 2-interval partition is depicted below in **Figure 4**. IS2 had n=290 solves in the ~100 days of the time range, spread roughly equivalently across puzzle days. The dramatically improved solve performance during this period is likely driven by the large amount of solving in a condensed period of time.    
+
+**Figure 4. IS2 Solve Performance 2023-2024 (Split Interval)**
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/e316faf9-29c7-4116-81aa-1d03edca7f91)
+*<h5> Note that there were no solves in 2023 before 04/14*<br>
+
+
 
 ### Individual Solver 2 (IS2) Performance Vs Global Median Solver (GMS) 
 
