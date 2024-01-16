@@ -75,9 +75,7 @@ Along with comparison of raw solve performance between IS2 and GMS, the degree t
 
 **Figure 6. IS2 vs GMS Solve Times as Percentage Difference from 10-Puzzle Moving Average by Puzzle Day and Solve Interval**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/edcf174d-749d-42f8-85a4-fc5c7d925094)
-*Correlations between IS2 and GMS solve times for a given puzzle day after adjustment for baseline performance were moderately-to-strongly positive*<br>
-
-*IS2-GMS Correlation (Pearson r) of 10-puzzle moving average-adjusted solve difficulty by IS2 solve interval:<br>
+*<h5>IS2-GMS Correlation (Pearson r) of 10-puzzle moving average-adjusted solve times by IS2 solve interval (all moderately-to-strongly positive):<br>
 *pre-2023: Sun: .74, Mon: .51, Tue: .71, Wed: .67, Thu: .70, Fri: .59, Sat: .74*<br>
 *2023/24:  Sun: .63, Mon: .47, Tue: .72, Wed: .56, Thu: .66, Fri: .51, Sat: .50*<br>
 
