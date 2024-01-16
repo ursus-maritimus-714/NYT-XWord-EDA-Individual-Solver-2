@@ -88,6 +88,8 @@ Along with comparison of raw solve performance between IS2 and GMS, the degree t
 
 The high proportion of puzzles by repeat individual constructors or specific constructor teams solved by IS2 (69%) afforded the opportunity to evaluate which constructors IS2 tended, in a relative sense, to struggle or do well against. A "mean constructor difficulty" measure (mean % difference from 10-puzzle moving average), normalized both for puzzle day and IS2 baseline solve performance, was computed. **Figure 7** shows heatmapping of IS2 performance against the n=63 constructor(s) contributing >=4 puzzles over the sample period. While only 13% of constructor(s) contributed this many puzzles, this group contributed 40% of all puzzles solved. **Fig. 7** also shows this metric for the GMS on the same set of puzzles for the sake of qualitative comparison. Warmer colors (-%) indicate that the solver solved relatively fast against a given constructor when controlling for day-of-week difficulty and recent solver form; cooler colors (+%) indicate the opposite. "Hot" or "cold" constructors for IS2 tended to also be relatively fast or slow, respectively, for GMS as well. However, there was clearly a substantial degree of discordance in terms of specific order and some constructors (e.g., Brad Wiegmann, Byron Walden, Will Nediger) stood out as being "hot" for one solver but "cold" for the other.
 
+**Figure 6. Heatmapping of IS1 and GMS Performance Against Individual Constructor(s)**
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/e8effff6-7029-4e01-b845-16da6e13bfed)
 
 
 
