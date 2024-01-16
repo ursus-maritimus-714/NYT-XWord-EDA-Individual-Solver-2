@@ -84,6 +84,9 @@ Along with comparison of raw solve performance between IS2 and GMS, the degree t
 *pre-2023: Sun: 53.1/18.8/18.8/9.4, Mon: 62.0/19.0/15.2/3.8, Tue: 52.4/17.1/23.2/7.3, Wed: 50.6/16.0/18.5/14.8, Thu: 51.4/25.7/13.5/9.5, Fri: 54.5/19.7/22.7/3.0,<br> Sat: 64.8/18.5/11.1/5.6*<br>
 *2023/24:  Sun: 48.6/26.4/13.9/11.1, Mon: 52.5/15.3/23.7/8.5, Tue: 55.7/23.0/19.7/1.6, Wed: 45.9/26.2/14.8/13.1, Thu: 50.0/25.7/17.6/6.8, Fri: 50.0/20.0/25.0/5.0,<br> Sat: 42.2/28.9/16.9/12.0*<br>
 
+### IS2 Performance By Puzzle Constructor(s)
+
+The high proportion of puzzles by repeat individual constructors or specific constructor teams solved by IS2 (69%) afforded the opportunity to evaluate which constructors IS2 tended, in a relative sense, to struggle or do well against. A "mean constructor difficulty" measure (mean % difference from 10-puzzle moving average), normalized both for puzzle day and IS2 baseline solve performance, was computed. **Figure 7** shows heatmapping of IS2 performance against the n=63 constructor(s) contributing >=4 puzzles over the sample period. While only 13% of constructor(s) contributed this many puzzles, this group contributed 40% of all puzzles solved. **Fig. 7** also shows this metric for the GMS on the same set of puzzles for the sake of qualitative comparison. Warmer colors (-%) indicate that the solver solved relatively fast against a given constructor when controlling for day-of-week difficulty and recent solver form; cooler colors (+%) indicate the opposite. "Hot" or "cold" constructors for IS2 tended to also be relatively fast or slow, respectively, for GMS as well. However, there was clearly a substantial degree of discordance in terms of specific order and some constructors (e.g., Brad Wiegmann, Byron Walden, Will Nediger) stood out as being "hot" for one solver but "cold" for the other.
 
 
 
