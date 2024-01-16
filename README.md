@@ -67,7 +67,7 @@ Along with comparison of raw solve performance between IS2 and GMS, the degree t
 *2023/24:  Sun: .63, Mon: .47, Tue: .72, Wed: .56, Thu: .66, Fri: .51, Sat: .50*<br>
 
 *<h5> IS2-GMS Quadrant Percentage by IS2 solve interval: Lower Left(LL)/Upper Right(UR)/Upper Left(UL)/Lower Right(LR)*<br>
-*LL: Relatively Easy for Both IS1 & GMS/ UR: Hard for IS1 & GMS/ UL: Easy for GMS-Hard for IS1/ LR: Easy for IS1-Hard for GMS*<br> 
+*LL: Relatively Easy for Both IS2 & GMS/ UR: Hard for IS2 & GMS/ UL: Easy for GMS-Hard for IS2/ LR: Easy for IS2-Hard for GMS*<br> 
 *pre-2023: Sun: 53.1/18.8/18.8/9.4, Mon: 62.0/19.0/15.2/3.8, Tue: 52.4/17.1/23.2/7.3, Wed: 50.6/16.0/18.5/14.8, Thu: 51.4/25.7/13.5/9.5, Fri: 54.5/19.7/22.7/3.0,<br> Sat: 64.8/18.5/11.1/5.6*<br>
 *2023/24:  Sun: 48.6/26.4/13.9/11.1, Mon: 52.5/15.3/23.7/8.5, Tue: 55.7/23.0/19.7/1.6, Wed: 45.9/26.2/14.8/13.1, Thu: 50.0/25.7/17.6/6.8, Fri: 50.0/20.0/25.0/5.0,<br> Sat: 42.2/28.9/16.9/12.0*<br>
 
