@@ -43,14 +43,16 @@ IS2's per-puzzle day 10-puzzle moving averages across the sample period are show
 *2023/24: Sun: 32.7[27.1-41.1], Mon: 5.7[4.8-6.5], Tue: 7.4[6.8-8.6],   Wed: 11.9[9.8-14.3], Thu: 19.7[15.8-26.4], Fri: 19.4[15.0-25.0], Sat: 26.4[20.3-36.7]*<br>
 
 ###
-Because over half of IS2' total solves (n=537) came in 2023-2024, and there was such rapid and dramatic improvement over the latter ~1/3 of that time range, zoom-in and 2-interval partition is depicted below in **Figure 4**. IS2 had n=290 solves in the ~100 days of the time range, spread roughly equivalently across puzzle days. The dramatically improved solve performance during this period is likely driven by the large amount of solving in a condensed period of time.    
+Because over half of IS2' total solves (n=537) came in 2023-2024, and there was such rapid and dramatic improvement over the latter ~1/3 of that time range, zoom-in and 2-interval partition is depicted below in **Figure 4**. IS2 had n=290 solves in the final 3.5 months of the time range, spread roughly equivalently across puzzle days. The dramatically improved solve performance (the Sat median solve time, for ex. was cut nearly in half) during this period was likely heavily influenced by the large amount of solving in a condensed period of time.    
 
 **Figure 4. IS2 Solve Performance 2023-2024 (Split Interval)**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/e316faf9-29c7-4116-81aa-1d03edca7f91)
-*<h5>Median[IQR] solve time (m), per puzzle day, per solve interval:*<br>
-*Apr 2023-Sept 2023: Sun: 69.3[59.4-82.2], Mon: 10.3[8.7-11.8], Tue: 15.4[11.2-24.5], Wed: 21.5[14.9-34.2], Thu: 43.4[39.6-63.8], Fri: 33.3[30.7-48.5], Sat: 52.0[41.7-55.7]*<br>
-*Oct 2023-Jan 2024:  Sun: 43.0[36.6-52.4], Mon: 7.1[5.9-8.2], Tue: 10.6[8.7-12.6], Wed: 14.0[11.5-20.0], Thu: 25.0[18.2-31.0], Fri: 26.3[18.4-32.0], Sat: 34.8[28.0-50.4]*<br>
 *<h5> Note that there were no solves in 2023 before 04/14*<br>
+
+*<h5>Median[IQR] solve time (m), per puzzle day, per solve interval:*<br>
+*Apr 2023-Sept 2023: Sun: 41.2[32.6-47.1], Mon: 5.9[5.5-6.7], Tue: 7.7[6.9-8.9], Wed: 13.2[10.6-14.9], Thu: 26.4[18.9-32.1], Fri: 24.2[18.0-32.0], Sat: 38.5[26.7-46.1]*<br>
+*Oct 2023-Jan 2024:  Sun: 28.8[23.9-35.4], Mon: 5.4[4.7-6.2], Tue: 7.3[6.6-8.5], Wed: 10.2[8.5-12.4], Thu: 16.9[14.5-20.5], Fri: 18.3[13.0-24.7], Sat: 23.3[17.2-32.5]*<br>
+
 
 
 ### Individual Solver 2 (IS2) Performance Vs Global Median Solver (GMS) 
