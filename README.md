@@ -121,11 +121,23 @@ The rightmost column/bottom row per matrix shows the correlation between IS2 sol
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/dea301ac-b2e8-4768-9e90-2b0d67f0d621)
 *<h5>These correlation heatmaps are derived from N=887 15x15 (left panel) and N=141 21x21 (right panel) puzzles solved by IS2.*
 
+###
 **Figure 11** through **Figure 22** are companion figures to the correlation heatmapping shown in **Fig. 10**. These figures show, across all 15x15 puzzle days (black) and by-puzzle-day (colored), scatterplots of select features of interest vs IS2 raw solve times at the level of individual puzzles. A feature distribution density plot (FDP) shows puzzle day-specific trends in the distribution of each plotted feature. 
 
 Though most features had at least a moderate correlation strength with IS2 solve times across all 15x15 puzzles, at the by-puzzle-day level these correlations were typically stronger for the more difficult puzzle days (Sat, in particular). It is very likely that the wider ranges of feature values in later week puzzle days (compare per-day widths in the FDPs or x-axis extents in the scatterplots) is related to this finding. There may be threshold values per feature below/above which the feature's effect is not significant in comparison with the effects of solver aptitude (see discussion above about **Fig. 10**, and also see **Fig. 22**). Early week puzzles may also simply not be difficult enough overall for certain features to have an impact on solve times. This is especially true with respect to 'grid features', as they will always necessarily interact with the difficulty of the content of the clue and/or answer.   
 
 Each figure caption for **Figs. 11-22** compares the correlation strength for a given feature for IS2 with that for the global median solver (GMS) over the same set of puzzles. While GMS correlations were uniformly directionally the same as for IS2, they were also uniformly *stronger* than those for IS2. My hunch is that this was related to the more variable per-day baseline performance of IS2 relative to the GMS (**see Figs. 1 and 2**). Proving or disproving this hunch will require running the correlations (per solver) against times adjusted for each day-specific 10-puzzle moving average (stay tuned...).       
+
+#### Scatterplots for Individual Features vs IS2 Solve Times, with Associated Feature Distribution Density Plots (FDPs)
+
+#### *Grid Features*
+
+**Figure 11. Number of Answers**
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/43a7eae5-b793-4b22-856c-8a6126d75b57)
+*<h5>Individual Solver 2 (IS2) solve times and '# Answers' had a moderately strong negative correlation on 15x15 puzzles (r= -.47).<br>
+Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles was considerably stronger (r = -.56).<br>*
+
+*More answers typically meant shorter answers (see correlation matrices above), and shorter answers tended to be more common/easier answers (see 'Average Answer Length' and 'Freshness Factor' analyses below). Aligned with this relationship, the FDP for this feature shows that the toughest puzzle days (Fri and Sat) tended to have the fewest answers. The strong *positive* correlation seen for Monday (also seen for IS1 and GMS) may be the excepton that proves the rule here. This finding suggests that, below a particular per-clue/answer difficulty threshold, merely having to read more clues to solve the puzzle penalizes the solver more than the solver is rewarded for avoiding longer (but still easy early in the week) answers.*
 
 
 
