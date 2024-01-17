@@ -160,6 +160,13 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 
 *This finding was consistent with other grid feature relationships with IS2 solve times, which makes sense as longer answers means more multiword and relatively-rare answers (see correlation matrices above and **Figs. 18-20**). This correlation was apparent within most of the individual puzzle days, and was stronger for later week days, as was typical for grid features. As with '# Answers' Monday stood alone among puzzle days in showing the reverse correlation sign. Given that these two features are themselves strongly negatively correlated themselves (see **Fig. 10**), it makes sense that Monday would again serve as the exception that proves the rule. Longer answers that are still easy may increase solver speed in the aggregate by reducing the amount of clues consumed needed for a solve, without a counterbalancing 'difficulty penalty' that might occur with longer answers on later puzzle days.*
 
+**<h4>Figure 14. Number of Cheater Squares**
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/e0812ac7-ce66-4474-8bd9-fca5fd31ae8a)
+*<h5>IS2 solve times and '# Cheater Squares' had a weak positive correlation on 15x15 puzzles (r= .11).<br>
+GMS correlation strength on the same set of 15x15 puzzles was slighty stronger (r = .18).<br>*
+
+*Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name), and it can be seen in the FDP that large numbers of them (say, >10) almost always appeared on the difficult puzzle days. Within each puzzle day, it's clear that puzzles with larger numbers of these squares tended to be easier for IS2 (also true for IS1 and the GMS). So the seeming paradox between the overall 15x15 trend and the individual puzzle day trends is likely related to the competing effects on solve times of an increase in cheater squares allowing trickier constructions, but also simultaneously reducing the number of answers and answer lengths. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
 
 
 
