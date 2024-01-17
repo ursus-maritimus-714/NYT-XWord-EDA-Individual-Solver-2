@@ -17,7 +17,7 @@ GMSTs improved over the complete set of puzzles issued between January 1, 2018 a
 
 **Figure 1. GMS Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/eeb60aac-e13e-465f-b207-312b29d79c27)
-*<h5>GMS end-of-sample period 10-puzzle moving average of solve time (m), per-puzzle day:*<br>
+*<h5>GMS Final (wk of Jan. 15, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
 *Sun: 29.8, Mon: 5.7, Tue: 7.8, Wed: 12.0, Thu: 15.5, Fri: 17.9, Sat: 20.9*<br>
 
 ## Results
@@ -29,12 +29,12 @@ IS2's per-puzzle day 10-puzzle moving averages across the sample period are show
 
 **Figure 2. Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/d64aafb6-78a1-4963-9feb-98845335452f)
-*<h5>IS2 end-of-sample period 10-puzzle moving average of solve time (m), per-puzzle day:*<br>
+*<h5>IS2 Final (wk of Jan. 15, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
 *Sun: 28.8, Mon: 4.7, Tue: 7.3, Wed: 10.5, Thu: 16.9, Fri: 17.6, Sat: 22.0*<br>
 
 
 ###
-**Figure 3** shows IS2's solve time performance trajectory in violin plots with swarm plot overlays, broken out by 2-3 year solve date intervals. These representations may be somewhat easier to digest than the line plots in **Fig. 2**, as they remove the compressing effect of the long intervals with minimal solve activity. They also have the advantage of providing a clear visual sense of the number of solves and distribution shape, per interval. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve year. Black lines on the violin plot demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times.   
+**Figure 3** shows IS2's solve time performance trajectory in violin plots with swarm plot overlays, broken out by 2-3 year solve date intervals. These representations may be somewhat easier to digest than the line plots in **Fig. 2**, as they remove the compressing effect of the long intervals with minimal solve activity. They also have the advantage of providing a clear visual sense of the number of solves and distribution shape, per interval. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve interval. Black lines on the violin plot demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times.   
 
 **Figure 3. Solve Time Overview by Puzzle Day: Violin Plots With Swarm Plot Overlay**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/b1fdfab4-849e-48ab-af88-a7a9622fbba1)
