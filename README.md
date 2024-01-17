@@ -230,9 +230,9 @@ GMS solve time and 'GMS Adjusted Recent Performance' had correlation strength on
 
 # Supplementary Figures
 
-**<h4>Supplementary Figure 1. IS2 10-Puzzle Solve Time Moving Averages, Adjusted by GMS Performance by Puzzle Day** 
+**<h4>Supplementary Figure 1. IS2 10-Puzzle Solve Time Moving Averages Adjusted by GMS Performance, by Puzzle Day** 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/949e5536-0d80-4b18-b600-a808d646f64c)
-*<h5>For each puzzle completed by IS2, the percentage difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**), particularly that around late Q1 2023 (a reminder that these moving averages are lagging indicators) was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by-chance runs of greater or lesser difficulty per-puzzle day.*
+*<h5>For each puzzle completed by IS2, % difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2**), including the upward spike in Q2-early Q3 2023, was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than chance stretches of puzzles with substantially greater or lesser than median difficulty across puzzle days.*
 
 **<h4>Supplementary Figure 2. Number of Rebus Squares vs IS2 Solve Time by Puzzle Day**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/1be473f6-3fba-435e-a6ba-0945ec487d08)
