@@ -224,11 +224,12 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 *<h5>To obtain 'GMS-ARP' for a given puzzle the 10 most recent *prior* puzzles from the same puzzle day were averaged after first being decay weighted (10 for the most recent prior puzzle, 9 for the one before that and so on down to a weight of 1 for the 10th prior puzzle). Recent past performance across all 15x15 puzzles for IS2 (and, to an even larger degree, for GMS) by this measure was more strongly correlated to performance on the "next" puzzle than were the specific characteristics of that puzzle.*
 
-*<h5>Very interestingly, correlation strengths for the early week 15x15 days (Mon-Wed) were higher than those for the later week days (see below in caption). This held true for IS1 and GMS as well. I believe this trend attests to the relative heterogeneity of later week puzzles. To this end, the lowest puzzle day correlation for both the GMS and IS1 was for Thursday the most heterogeneous puzzle day of all  The likelihood of a solver getting stuck on one particular clue or isolated portion of a puzzle for an extended period of time also goes way up on the most difficult puzzles. *
+*<h5>Correlation strengths for the early week 15x15 days (Mon-Wed) were higher than those for the later week days, and this was also true in the analyses for IS1 and the GMS. This trend likely is related to the relative heterogeneity of later week puzzles, both in terms of tricks/gimmicks employed and also in general difficulty. The lowest puzzle day correlation for both the GMS and IS1 was for Thursday, arguably the most heterogenous puzzle day of all as there's almost always a gimmick involved (e.g., rebuses of various flavors). Interestingly, Friday and Saturday both had lower correlations for IS2 than did Thursday.*
 
 *<h5>Correlation Strength by Puzzle Day:*<br>
-*IS1: Sun: .43, Mon: .48, Tue: .41, Wed: .30, Thu: .18, Fri: .28, Sat: .40*<br>
-*GMS: Sun: .12, Mon: .39, Tue: .22, Wed: .02, Thu: .01, Fri: .09, Sat: .17*<br>
+*IS1: Sun: .57, Mon: .60, Tue: .59, Wed: .58, Thu: .50, Fri: .35, Sat: .39*<br>
+*GMS: Sun: .62, Mon: .54, Tue: .51, Wed: .44, Thu: .37, Fri: .40, Sat: .39*<br>
+*These GMS by-puzzle day correlations are taken from the entire GMS sample in the GMS-specific analysis (technical reasons...)*
 
 
 
