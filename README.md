@@ -74,15 +74,15 @@ The next series of figures directly compare IS2 solve performance to that of the
 Along with comparison of raw solve performance between IS2 and GMS, the degree to which the same puzzles were *relatively* difficult for IS2 and the GMS was addressed. Each IS2 and GMS solve time was taken as a % difference from the solver's respective day-specific 10-puzzle moving average. These 'recent form-normalized' solve times for IS2 and the GMS were then plotted against each other on a per-puzzle day and per-solve interval basis (**Figure 6**). Points falling in the lower left (LL; "relatively easy for both solvers") and upper right (UR; "relatively hard for both solvers") quadrants represent concordance of relative difficulty for a given puzzle. By far the most common outcome across puzzle days for both solve periods was "relatively easy for both solvers" (LL), with the second most common outcome being "relatively hard for both solvers" (UR). One reason for the asymmetry between these two quadrants is that it's relatively rare for the solver (either the GMST or individual solver) to solve a new puzzle more slowly than their 10-puzzle moving average, due to relentless improvement in underlying skill. Nonetheless, there were a substantial number of puzzles in the quadrants other than LL. In fact, UL ("relatively easy for GMS, relatively hard for IS2") was the second most frequent quadrant on multiple puzzle days, including for both Friday time intervals. Starting in the next section, the focus is on analyses isolating the relationship of factors independent of baseline solver aptitude (ie, "why are there points in those three quadrants?".
 
 **Figure 6. IS2 vs GMS: Comparison of Baseline-Adjusted Solve Performance by Puzzle Day and Solve Interval**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/0bc3cd31-bbce-42d9-8f12-699afaff9b73)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/4d33842c-e18d-406e-83b6-4b6b21c390a4)
 *<h5>IS2-GMS Correlation (Pearson r) of 10-puzzle moving average-adjusted solve times by IS2 solve interval (all moderately-to-strongly positive):<br>
 *pre-2023: Sun: .74, Mon: .51, Tue: .71, Wed: .67, Thu: .70, Fri: .59, Sat: .74*<br>
 *2023/24:  Sun: .63, Mon: .47, Tue: .72, Wed: .56, Thu: .66, Fri: .51, Sat: .50*<br>
 
 *<h5> IS2-GMS Quadrant Percentage by IS2 solve interval: Lower Left(LL)/Upper Right(UR)/Upper Left(UL)/Lower Right(LR)*<br>
 *LL: Relatively Easy for Both IS2 & GMS/ UR: Hard for IS2 & GMS/ UL: Easy for GMS-Hard for IS2/ LR: Easy for IS2-Hard for GMS*<br> 
-*pre-2023: Sun: 53.1/18.8/18.8/9.4, Mon: 62.0/19.0/15.2/3.8, Tue: 52.4/17.1/23.2/7.3, Wed: 50.6/16.0/18.5/14.8, Thu: 51.4/25.7/13.5/9.5, Fri: 54.5/19.7/22.7/3.0,<br> Sat: 64.8/18.5/11.1/5.6*<br>
-*2023/24:  Sun: 48.6/26.4/13.9/11.1, Mon: 52.5/15.3/23.7/8.5, Tue: 55.7/23.0/19.7/1.6, Wed: 45.9/26.2/14.8/13.1, Thu: 50.0/25.7/17.6/6.8, Fri: 50.0/20.0/25.0/5.0,<br> Sat: 42.2/28.9/16.9/12.0*<br>
+*pre-2023: Sun: 53.3/16.7/20.0/10.0, Mon: 59.5/20.3/16.2/4.1, Tue: 51.9/18.2/22.1/7.8, Wed: 51.4/16.2/18.9/13.5, Thu: 50.7/24.6/14.5/10.1, Fri: 53.3/18.3/25.0/3.3,<br> Sat: 64.6/18.8/12.5/4.2*<br>
+*2023/24:  Sun: 48.1/27.3/13.0/11.7, Mon: 55.4/15.4/21.5/7.7, Tue: 55.9/20.6/20.6/2.9, Wed: 45.6/25.0/14.7/14.7, Thu: 50.6/26.6/16.5/6.3, Fri: 51.2/20.9/23.3/4.7,<br> Sat: 43.8/28.1/15.7/12.4*<br>
 
 ### IS2 Performance By Puzzle Constructor(s)
 
