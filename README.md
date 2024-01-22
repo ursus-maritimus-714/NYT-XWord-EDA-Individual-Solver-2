@@ -101,7 +101,7 @@ The next correlational analysis was aimed at assessing the potential predictive 
 **Figure 8. IS2 and GMS: Past Performance Against Individual Constructors as "Prediction" of Next Puzzle Performance Against the Same Constructor**  
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/a9ecfcd8-0a46-4e2a-a269-8731d03374c8)
-<br>Pearson correlation coefficient (r): IS2: .22, GMS: .31*
+<h5>Pearson correlation coefficient (r): IS2: .22, GMS: .31*
 
 ### IS1 Performance by Completion Time of Day
 
