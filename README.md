@@ -143,11 +143,11 @@ Each figure caption for **Figs. 11-22** compares the correlation strength for a 
 #### *Grid Features*
 
 **Figure 11. Number of Answers**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/43a7eae5-b793-4b22-856c-8a6126d75b57)
-*<h5>Individual Solver 2 (IS2) solve times and '# Answers' had a moderately strong negative correlation on 15x15 puzzles (r= -.47).<br>
-Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.56).<br>*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/fdccd53f-28a4-4bef-90ab-28f3206e1c16)
+*<h5>Individual Solver 2 (IS2) solve times and '# Answers' had a moderately strong negative correlation on 15x15 puzzles (r= -.48).<br>
+Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.55).<br>*
 
-*More answers typically meant shorter answers (see correlation matrices above), and shorter answers tended to be more common/easier answers (see 'Average Answer Length' and 'Freshness Factor' analyses below). Aligned with this relationship, the FDP for this feature shows that the toughest puzzle days (Fri and Sat) tended to have the fewest answers. The strong *positive* correlation seen for Monday (also seen for IS1 and GMS) may be the exception that proves the rule here. This finding suggests that, below a particular per-clue/answer difficulty threshold, merely having to read more clues to solve the puzzle penalizes the solver more than the solver is rewarded for avoiding longer (but still easy early in the week) answers.*
+*More answers typically meant shorter answers (see correlation matrices above), and shorter answers tended to be more common/easier answers (see 'Average Answer Length' and 'Freshness Factor' analyses below). Aligned with this relationship, the FDP for this feature shows that the toughest puzzle days (Fri and Sat) tended to have the fewest answers. The relatively strong *positive* correlations seen for Monday and Wednesday (also seen for Mon for IS1 and GMS) suggest that, below a particular per-clue/answer difficulty threshold, merely having to read more clues to solve the puzzle may penalize the solver more they are rewarded for avoiding longer answers.*
 
 **<h4>Figure 12. Number of Open Squares**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/74c04f3d-5884-4f58-97f4-721c62888adc)
