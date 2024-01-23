@@ -193,18 +193,22 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
 
 **<h4>Figure 17. Scrabble Average**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/100f601c-21b6-4d50-8d7a-8d043e665c5e)
-*<h5>IS2 solve times and 'Scrabble Average' had a weak-to-nonexistent negative correlation on 15x15 puzzles (r= -.01).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.03).<br>*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/036437fe-d5b8-407b-a7c9-9ec80109910c)
+*<h5>IS2 solve times and 'Scrabble Average' had a weak-to-nonexistent negative correlation on 15x15 puzzles (r= <-.01).<br>
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.04).<br>*
 
 *'Scrabble Average' is another proprietary XWord Info measure, in which each letter in the answer grid is assigned its equivalent value in Scrabble. Since tile values in Scrabble increase with rarity of letter frequency in English texts, it would make sense that a higher value for this feature would be associated with *answers* of greater rarity. If anything, the opposite was true in practice here. Furthermore, as can be seen in the next series of figures, there are direct measures of answer rarity that *do* have strong positive correlations to solve times. So this one is a candidate to either be left out of predictive modeling entirely or to be combined with other answer rarity/difficulty measures to generate a useful predictive feature.*
 
 **<h4>Figure 18. Number of Scrabble Illegal Answers**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/dbd5acfc-bb9a-45a9-a037-0a00e29a1c78)
-*<h5>IS2 solve times and '# Scrabble Illegal' had a weak positive correlation on 15x15 puzzles (r= .15).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = .20).<br>*
 
-*'# Scrabble Illegal' answers is a proprietary measure of XWord Info that gets at answer rarity more directly than does 'Scrabble Average' (though not as directly as the measures in **Figs. 19 and 20**). Interestingly, this (modest) positive correlation was seen both across all 15x15 puzzles and within each puzzle day (save for Fri). Also interesting is that, apart from a Monday relative leftward shift in the FDP, the distributions for the other 15x15 puzzle days were highly overlapping. I had assumed that the days with more open squares and longer average answers would also have substantially more answers that are not standard English vocabulary words. This finding suggests that more non-standard vocabulary *alone* may not signify or predict puzzle difficulty.*  
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/4e7e1388-27ac-4654-a286-3f701212a87a)
+*<h5>IS2 solve times and '# Scrabble Illegal' had a weak positive correlation on 15x15 puzzles (r= .13).<br>
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = .19).<br>*
+
+*'# Scrabble Illegal' answers is a proprietary measure of XWord Info that gets at answer rarity more directly than does 'Scrabble Average' (though not as directly as the measures in **Figs. 19 and 20**). Interestingly, the distributions for 15x15 puzzle days in the FDP were highly overlapping, other than a leftward shift for Monday that appears to account for the overall 15x15 puzzles (modest) positive correlation. With regard to Monday puzzles, it is notable that very low '# Scrabble Illegal' (<~20) seen essentially only on that day was associate with very fast solves. 
+
+Monday trends aside, I had assumed prior to this analysis that the puzzle days with higher 'Open Squares' and 'Average Answer Length' would also have had proportionally more answers that were not standard English vocabulary words. There were also not discernable trends for correlation strength within the more difficult puzzle days across the range of '# Scrabble Illegal' values (with the possible exception of Saturday at the very high end of the feature distribution). Taken together, these findings suggest that more non-standard vocabulary *alone* may not strongly signify or predict puzzle difficulty.*  
+ 
 
 **<h4>Figure 19. Number of Unique Answers**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/8d5c1554-0d83-4200-a59d-c1cec831d3f9)
