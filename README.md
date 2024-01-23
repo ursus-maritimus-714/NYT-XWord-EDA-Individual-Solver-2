@@ -1,3 +1,4 @@
+
 # Exploratory Data Analysis of Individual Solver 2 (IS2) Performance on the New York Times Crossword Puzzle
 
 ## Introduction
@@ -183,6 +184,7 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger,
 *Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name). It can be seen in the FDP that large numbers of them (say, >10) almost always appeared on the difficult puzzle days (Fri and Sat), which accounts for the (modest) positive correlation across all 15x15 puzzles. There were, however, relatively strong reverse sign (negative) correlations seen within Monday and Saturday, and weaker ones seen on the other puzzle days. This raises the possibility of diminishing returns on '# Cheater Squares'; they may help make constructions "trickier" up to a point, but beyond that point on balance they speed solvers up simply by lowering the number of fill squares (a la a high '# Black Squares'). Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
 
 #### *Answer and Clue Content Features*
+
 **<h4>Figure 16. Number of Fill-in-the-Blank Answers**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/a32d4bc6-3612-408f-9475-c24f81c6de88)
@@ -211,27 +213,29 @@ Monday trends aside, I had assumed prior to this analysis that the puzzle days w
  
 
 **<h4>Figure 19. Number of Unique Answers**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/8d5c1554-0d83-4200-a59d-c1cec831d3f9)
-*<h5>IS2 solve times and '# Unique Answers' had a weak-to-moderate positive correlation on 15x15 puzzles (r= .29).<br>
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/d64089bf-5cf0-4f6f-95f7-28f32797bb9b)
+*<h5>IS2 solve times and '# Unique Answers' had a weak-to-moderate positive correlation on 15x15 puzzles (r= .31).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .38).<br>*
 
-*<h5>A unique answer is defined here as one that does not appear in any other NYT crossword puzzle in either the Shortz or pre-Shortz eras (either before or after the puzzle release date). This is perhaps an overly stringent criterion to define answer rarity (see **Fig. 20** for a graded approach to defining answer rarity). Nonetheless, the positive correlation was clearly apparent when considering all 15x15 puzzles together and also especially within the most challenging puzzle day (Sat). It is also clear in the FDP that '# Unique Answers' tended to increase as puzzle day difficulty increased.*
+*<h5>A unique answer is defined here as one that does not appear in any other NYT crossword puzzle in either the Shortz or pre-Shortz eras (either before or after the puzzle release date). This is perhaps an overly stringent criterion to define answer rarity (see **Fig. 20** for a graded approach to defining answer rarity). Nonetheless the positive correlation was clearly apparent when considering all 15x15 puzzles together, consistent with the most difficult puzzle days (Fri and Sat) pulling most of the weight given their prominent rightward shifts in the FDP, and also within most of the individual puzzle days.*
 
 **<h4>Figure 20. Freshness Factor**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/9f4d4936-76b0-4b35-8d34-e9ad453da855)
-*<h5>IS2 solve times and 'Freshness Factor' had a moderately strong positive correlation on 15x15 puzzles (r= .56).<br>
-GMS correlation strength on the same set of 15x15 puzzles was considerably stronger, reaching the level of strong correlation (r = .66).<br>*
 
-*<h5>'Freshness Factor' is yet another proprietary XWord Info measure that assesses the aggregate relative novelty of all answers in a given crossword puzzle as compared to those in all other crossword puzzles in the NYT archive. The much stronger correlation to IS2 solve times as compared to that for '# Unique Answers' suggests that there's much to be gained by taking a graded, as opposed to all-or-none, approach in assessing answer rarity.  More so than any other grid, clue or puzzle feature, 15x15 puzzle days peaked in this measure (seen in the FDP) in close concordance with the peaks in the per day sequence for solve times (see **Figs. 2 and 4**). This finding generates a prediction that, apart from recent puzzle day-specific solver performance prior to a given solve (see **Figure 22**), 'Freshness Factor' will be the most useful feature evaluated in this analysis for predictive modeling of solve performance.*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/20a662ae-74e5-4cd8-a516-de5aafd56301)
+*<h5>IS2 solve times and 'Freshness Factor' had a moderately strong positive correlation on 15x15 puzzles (r= .58).<br>
+GMS correlation strength on the same set of 15x15 puzzles was considerably stronger, reaching the level of strong correlation (r = .67).<br>*
+
+*<h5>'Freshness Factor' is yet another proprietary XWord Info measure that assesses the aggregate relative novelty of all answers in a given crossword puzzle as compared to those in all other crossword puzzles in the NYT archive. The much stronger correlation to IS2 solve times as compared to that for '# Unique Answers' suggests that there's much to be gained by taking a graded, as opposed to all-or-none, approach in assessing answer rarity.  More so than any other grid, clue or puzzle feature, 15x15 puzzle days peaked in this measure (seen in the FDP) in close concordance with the peaks in the per day sequence for solve times (see **Figs. 2 and 4**). The positive correlation was also seen to some degree within each of the individual puzzle days. This finding generates a prediction that, apart from recent puzzle day-specific solver performance prior to a given solve (see **Figure 22**), 'Freshness Factor' will be the most useful feature evaluated in this analysis for predictive modeling of solve performance.*
 
 
 **<h4>Figure 21. Number of Wordplay Clues**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c56989c7-c953-4794-891c-5a2c85ccf03f)
 
-*<h5>IS2 solve times and '# Wordplay Clues' had a moderate positive correlation on 15x15 puzzles (r= .32).<br>
-GMS correlation strength on the same set of 15x15 puzzles was substantially stronger (r = .44).<br>*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/f308807b-560b-4107-8ccd-e26898ad85d4)
+*<h5>IS2 solve times and '# Wordplay Clues' had a moderate positive correlation on 15x15 puzzles (r= .33).<br>
+GMS correlation strength on the same set of 15x15 puzzles was substantially stronger (r = .45).<br>*
 
-*<h5>'# Wordplay' clues is an admittedly somewhat subjective measure that I have manually evaluated and calculated clue-by-clue across (most of) the entire puzzle sample completed by IS2. It's clear in the FDP that the later week 15x15 puzzles in the sample employed substantially more 'Wordplay' than the early week puzzles. This relationship to difficulty by puzzle day accounts for the overall moderate positive correlation across all 15x15 puzzles. The negative correlation with later day solve times, particularly Friday, is interesting. Perhaps IS2 is especially adept at decoding tricky wordplay, as this reversal of the overall 15x15 correlation was not seen for either IS1 or the GMS. As a final note, the apparent strong Monday positive correlation was due to slow solve times on the extremely rare smattering of puzzles for that day with >2-3 wordplay clues.* 
+*<h5>'# Wordplay' clues is an admittedly somewhat subjective measure that I have manually evaluated and calculated clue-by-clue across (nearly) the entire puzzle sample completed by IS2. The FDP for this feature has some interesting properties, including the clear result that later week (Thu, Fri, Sat) puzzles indeed have a larger allocation of 'trickier' clues than early week puzzles. There's also a prominent strong leftward shift for Monday puzzles. Taken together, these early and late week distribution offsets seem to account for the overall positive correlation cross 15x15 puzzles. However, it is potentialy interesting that the later week puzzle days (Thu-Sat) for this solver, unlike for the GMS or IS1, showed reverse sign (negative) correlations. This raises the possibility that this solver is unusually adept at wordplay-based clues in the difficult puzzle context. It will be interesting to see how this potential interaction with puzzle difficulty plays out in the preditive modeling phase.* 
 
 **<h4>Figure 22. IS2 Adjusted Recent Performance**
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/52745839-1ecc-4c75-80cd-3a62bb8c221d)
