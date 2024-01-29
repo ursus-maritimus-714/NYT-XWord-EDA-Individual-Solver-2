@@ -251,7 +251,7 @@ GMS correlation strength on the same set of 15x15 puzzles was substantially stro
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/5cd044ff-389c-4d1e-8104-9978a91817c5)
 *<h5>IS2 next raw solve time and IS2 'Recent Performance Baseline (RPB)' had a strong positive correlation on 15x15 puzzles (r= .73).<br>
-GMS next raw solve time and GMS 'RPB' correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of very strong correlation (r = .87).<br>*
+GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reaching the level of very strong correlation (r = .87).<br>*
 
 *<h5>The all 15x15 puzzles correlation for this past performance feature was considerably stronger than that for any puzzle feature (Figs. 11-21). The implication is that time decay-time weighted IS2 recent past performance (RPB over the 20 day-specific puzzles previous to a given solve) will likely have more predictive value for the next IS2 raw solve time than will any single puzzle, clue or answer feature. Not all puzzle days were created equally, however, with regard to correlational strength (and, potentially, predictive power) of RPB and next raw solve time for this solver. Monday (r=.49) having the strongest correlation of the 15x15 puzzle days was unsurprising, given how few "degrees of freedom" there were in the easiest puzzles. This was also the 15x15 puzzle day with the strongest correlation for both the GMS and IS1. In the same vein, the two other easiest puzzle days, Tuesday (r=.47) and Wednesday (r=.44), followed closely behind Monday for IS1. Tuesday also had the second highest correlation for both the GMS and IS1.* 
 
