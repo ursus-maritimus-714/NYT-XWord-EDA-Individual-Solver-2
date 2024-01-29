@@ -168,7 +168,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .56)
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/0abfd222-be2d-405d-a0e7-5c75802c235b)
 *<h5>IS2 solve times and '# Black Squares' had a weak-to-moderate negative correlation on 15x15 puzzles (r= -.29).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.38).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was stronger (r = -.38).<br>*
 
 *Most of the strength of the all 15x15 puzzles correlation (black) was related to the large leftward shift in the FDP for the two most difficult puzzle days (Fri and Sat), with nearly all 15x15 puzzles with <~32 black squares falling on those days. '# Black Squares' was strongly negatively correlated with both '# Open Squares' and 'Average Answer Length'. So an increase in '# Black Squares' meant shorter, easier answers and a faster solve on average. Within Saturday a relatively strong correlation of the same directionality as the overall 15x15 puzzles correlation was seen, emphasizing these dynamics. The weak-to-nonexistent correlations on the earlier week puzzle days might indicate a difficulty threshold for '# Black Squares' to have an impact on solve times, though the lack of puzzles with <~32 black squares on early week puzzle days makes it hard to discern that from a range effect.*
 
@@ -177,7 +177,7 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/743958b6-321c-46d4-b31e-6cbe6c167958)
 *<h5>IS2 solve times and 'Average Answer Length' had a moderately strong positive correlation on 15x15 puzzles (r= .58).<br>
-GMS correlation strength on the same set of 15x15 puzzles was considerably stronger, reaching the level of strong correlation (r = .67).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of strong correlation (r = .67).<br>*
 
 *The strong all 15x15 puzzles correlation was related to the large rightward shift in the FDP for the two most difficult puzzle days (Fri and Sat). Saturday also showed a relatively strong positive correlation across a wide range of feature values, with higher 'Average Answer Length' being associated with slower solves. As discussed in the contexts of Figs. 11 and 12, 'Average Answer Length' was strongly negatively correlated with '# Answers' and strongly positively correlated with measures of answer rarity (e.g. 'Freshness Factor; see Fig. 20). So it makes intuitive sense that as 'Average Answer Length' increased, particularly on difficult puzzle days, the answers themelves became more difficult and slowed down solve times even as they decreased in absolute number.* 
 
@@ -188,7 +188,7 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/be88ea7b-1acf-40e5-8a76-7c873ed00fd1)
 *<h5>IS2 solve times and '# Cheater Squares' had a weak positive correlation on 15x15 puzzles (r= .14).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger, reaching the level of a moderate positive correlation (r = .20).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .20).<br>*
 
 *Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name). It can be seen in the FDP that large numbers of them (>~10) almost exclusively appeared on the difficult puzzle days (Fri and Sat), which likely accounted for the (modest) positive correlation across all 15x15 puzzles. Saturday, with by far the widest feature value range of any of the 15x15 puzzle days, showed a moderate reverse sign (negative) correlation. This is not really at odds with the overall 15x15 positive correlation, since these squares are ultimately just black squares even if they facilitate tricky constructions for difficult puzzles. Add enough of them and they will reduce solve time simply by lowering the amount of fill. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
 
@@ -196,11 +196,11 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger,
 
 **<h4>Figure 16. Number of Fill-in-the-Blank Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/a32d4bc6-3612-408f-9475-c24f81c6de88)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/80825453-04b6-42bd-bd80-2c4d62cf86a5)
 *<h5>IS2 solve times and '# Fill-in-the-Blank Answers' had a weak-to-moderate negative correlation on 15x15 puzzles (r= -.25).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.26).<br>*
 
-*Taken together, the FDP and scatterplots indicate that most of the strength of this correlation was due to the easiest puzzles (note the rightward FDP peak shift for Mon, even relative to Tue) employing a heavy dose of FITB answers. It's also noteworthy that the most difficult puzzle days (Fri and Sat) clearly made less use of FITB answers than the other puzzle days, and more '# FITB' on those days was associated with speedier solves for IS2. These properties provide some optimism that this feature will have some predictive value.*
+*In the all 15x15 puzzles scatterplot, a fairly dramatic drop in solve times can be seen for puzzles employing >=7 fill-in -the-blank clues, the large majority of which occured on the early week puzzle days. There were also modest negative correlations in later week puzzle days, suggesting that for IS2 larger numbers of fill-in-the-blank clues on difficult puzzles may have aided in speedier solves. The relative weakness of the correlations and the rarity of more difficult puzzles with large '# Fill-in-the-Blank', however, makes it difficult to have confidence that this feature will add much accuracy to a predictive model of solve times.* 
 
 **<h4>Figure 17. Scrabble Average**
 
