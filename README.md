@@ -175,11 +175,14 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
 
 **<h4>Figure 14. Average Answer Length**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/e86e5df7-b8b5-4e2e-b2e8-da832e51f980)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/743958b6-321c-46d4-b31e-6cbe6c167958)
 *<h5>IS2 solve times and 'Average Answer Length' had a moderately strong positive correlation on 15x15 puzzles (r= .58).<br>
 GMS correlation strength on the same set of 15x15 puzzles was considerably stronger, reaching the level of strong correlation (r = .67).<br>*
 
-*This finding was consistent with other grid feature relationships to IS2 solve times, which makes sense since longer answers meant more multiword and relatively-rare answers (see correlation matrices above and **Figs. 18-20**). This positive correlation was apparent for the large majority of the individual puzzle days and, as was typical for grid features for IS2, it was strongest for Saturday. As with '# Answers', Monday stood out in showing the reverse correlation sign relative to the set of all 15x15 puzzles. Given that this feature and '# Answers' are themselves highly negatively correlated (see **Fig. 10**), it makes sense that an easy puzzle day would again serve as the exception that proves the rule. Longer answers that are still easy may increase solver speed in the aggregate by reducing the amount of clues consumed needed for a solve, without a counterbalancing 'difficulty penalty' that might occur with longer answers on later puzzle days.* 
+*The strong all 15x15 puzzles correlation was related to the large rightward shift in the FDP for the two most difficult puzzle days (Fri and Sat). Saturday also showed a relatively strong positive correlation across a wide range of feature values, with higher 'Average Answer Length' being associated with slower solves. As discussed in the contexts of Figs. 11 and 12, 'Average Answer Length' was strongly negatively correlated with '# Answers' and strongly positively correlated with measures of answer rarity (e.g. 'Freshness Factor; see Fig. 20). So it makes intuitive sense that as 'Average Answer Length' increased, particularly on difficult puzzle days, the answers themelves became more difficult and slowed down solve times even as they decreased in absolute number.* 
+
+*Another interesting observation regarding this feature is that, unlike for the other grid features discussed thus far, the Thursday peak was well-differentiated to the right of those for the earlier week puzzle days in the FDP. Given the relatively strong positive correlations overall and for several late week puzzle days with wide feature value ranges (including Thursday), plus the need to explain why solve times for Thursday were well right-shifted from the earlier week puzzle days (see Figs. 2 and 4), this feature becomes an attractive candidate for having some predictive value across multiple puzzle days in the modeling phase.*  
+
 
 **<h4>Figure 15. Number of Cheater Squares**
 
