@@ -182,22 +182,22 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 **<h4>Figure 15. Number of Cheater Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/be88ea7b-1acf-40e5-8a76-7c873ed00fd1)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/2a158921-bfd4-47fc-8e08-66b4502ccd80)
 *<h5>IS2 solve times and '# Cheater Squares' had a weak positive correlation for 15x15 puzzles (r= .14).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .20).<br>*
 
-*Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name). It can be seen in the FDP that large numbers of them (>~10) almost exclusively appeared on the difficult puzzle days (Fri and Sat), which likely accounted for the (modest) positive correlation across all 15x15 puzzles. Saturday, with by far the widest feature value range of any of the 15x15 puzzle days, showed a moderate reverse sign (negative) correlation. This is not really at odds with the overall 15x15 positive correlation, since these squares are ultimately just black squares even if they facilitate tricky constructions for difficult puzzles. Add enough of them at a given puzzle difficulty level and they will reduce solve time simply by lowering the amount of fill. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
+*Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name). It can be seen in the FDP that large numbers of them (>~10) almost exclusively appeared on the difficult puzzle days (Fri and Sat), which likely accounted for the (modest) positive correlation across all 15x15 puzzles. Saturday, with by far the widest feature value range of any of the 15x15 puzzle days, showed a moderate reverse sign (negative) correlation. Each of the other 15x15 puzzle days except for Friday also showed some degree of reverse sign (negative) correlation. This is not really at odds with the overall 15x15 positive correlation, since these squares are ultimately just black squares even if they facilitate tricky constructions for difficult puzzles. Add enough of them at a given puzzle difficulty level and they will reduce solve time simply by lowering the amount of fill. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
 
 #### *Answer and Clue Content Features*
 
 **<h4>Figure 16. Number of Fill-in-the-Blank Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/80825453-04b6-42bd-bd80-2c4d62cf86a5)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/0d7f852a-3799-4fe1-afdd-bc273918a5f6)
 *<h5>IS2 solve times and '# Fill-in-the-Blank Answers' had a weak-to-moderate negative correlation for 15x15 puzzles (r= -.25).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.26).<br>*
 
-*In the all 15x15 puzzles scatterplot, a fairly dramatic drop in solve times can be seen for puzzles employing >=7 fill-in -the-blank clues, the large majority of which occured on the early week puzzle days. There were also modest negative correlations in later week puzzle days, suggesting that for IS2 larger numbers of fill-in-the-blank clues on difficult puzzles may have aided in speedier solves. The relative weakness of the correlations and the rarity of more difficult puzzles with large '# Fill-in-the-Blank', however, makes it difficult to have confidence that this feature will add much accuracy to a predictive model of solve times.* 
-
+*Most of the strength of this weak-to-moderate correlation for all 15x15 puzzles was related to the rightward shift in the FDP for Monday. Along with the easiest puzzle day employing the largest dose of '#Fill-in-the-Blank', the hardest puzzle day (Saturday) was also slightly left-shifted relative to the other 15x15 puzzle days. There were moderate correlations of the same sign (negative) as the all 15x15 puzzles correlation for Friday and Saturday, and it does appear that feature values on the extremes were associated with impacts on solve time (slower times with very few '# Fill-in-the-Blank', faster times with relatively many). For the other puzzle days, the within-day correlations were weak. This suggests that the impact of this feature on solve times may interact with puzzle difficulty.* 
+ 
 **<h4>Figure 17. Scrabble Average**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/74551179-8b84-4f7e-871c-5b17392ddba1)
