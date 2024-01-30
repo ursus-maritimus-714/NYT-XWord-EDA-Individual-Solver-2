@@ -200,11 +200,11 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
  
 **<h4>Figure 17. Scrabble Average**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/74551179-8b84-4f7e-871c-5b17392ddba1)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/6f03c087-19f8-4e05-b1e8-b254493b39fe)
 *<h5>IS2 solve times and 'Scrabble Average' had a weak-to-nonexistent negative correlation for 15x15 puzzles (r= <-.01).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.03).<br>*
 
-*'Scrabble Average' is another proprietary XWord Info measure, in which each letter in the answer grid is assigned its equivalent value in Scrabble. Since tile values in Scrabble increase with rarity of letter frequency in English texts, it would make sense that a higher value for this feature would be associated with *answers* of greater rarity. However, 'Scrabble Average' had only moderate positive correlations with other more direct measures of answer rarity both across 15x15 puzzles (Fig. 10) and specifically within the later-week puzzle days (Supp. Fig. 1). Given that these more direct measures of answer rarity DID have strong positive correlations to solve times (see Figs. 18-20), and that the correlation of 'Scrabble Average' itself to IS2 solve times across puzzle days was weak, this feature is a candidate to be left out of predictive modeling entirely.*
+*'Scrabble Average' is another proprietary XWord Info measure, in which each letter in the answer grid is assigned its equivalent value in Scrabble. Since tile values in Scrabble increase with rarity of letter frequency in English texts, it would make sense that a higher value for this feature would be associated with *answers* of greater rarity. The more difficult 15x15 puzzle days (Thu-Sat) did show this tendency with positive correlations, suggesting that maybe there's a difficulty threshold for that relationship to manifest, though the correlation magnitudes were not large. Furthermore, 'Scrabble Average' had only moderate positive correlations with other more direct measures of answer rarity both across 15x15 puzzles (see Fig. 9) and specifically within the later-week puzzle days (see Supp. Fig. 1). Given that these more direct measures of answer rarity DID have strong positive correlations to solve times (see Figs. 18-20), this feature is a candidate to either be left out of predictive modeling entirely or to be combined with other answer rarity/difficulty measures to generate a novel predictive feature of slightly different flavor.*
 
 **<h4>Figure 18. Number of Scrabble Illegal Answers**
 
