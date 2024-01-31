@@ -130,7 +130,7 @@ One additional note on data inclusion time range: 2018/19 solves (n=98) have bee
 
 **Figure 10. Correlation Heatmapping of IS2 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/da0530f2-da5d-4785-95e4-1d0a654049b0)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/6c71abea-2d2f-4e86-a8be-a3a04c6f8ee8)
 *<h5>Correlation heatmaps derived from N=861 15x15 (left panel) and N=137 21x21 (right panel) puzzles solved by IS2 from 2020-2024.*
 
 ###
@@ -148,20 +148,19 @@ Each figure caption for **Figs. 11-22** compares the correlation strength for a 
 
 **Figure 11. Number of Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/ecdbe234-9d65-42e7-9722-54b5b3f1bc9d)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/3d0e2b81-85a4-4239-b06c-4e8cd6e56c42)
 *<h5>Individual Solver 2 (IS2) solve times and '# Answers' had a moderately strong negative correlation for 15x15 puzzles (r= -.48).<br>
 Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles was stronger (r = -.55).<br>*
 
-*Most of the strength of the all 15x15 puzzles correlation (black) was related to the large leftward shift in the FDP for the two most difficult puzzle days (Fri and Sat). '# Answers' was strongly negatively correlated with 'Average Answer Length' (see Fig. 14) and measures of answer rarity (e.g., 'Freshness Factor'; see Fig. 20). Thus, when puzzles were difficult (Fri and Sat), this fewer answers/more long answers combination meant more answers that were rarely encountered/unique. Within the most difficult puzzle days (Fri and Sat) moderately strong correlations of the same sign (negative) as the overall 15x15 puzzles correlation was seen, emphasizing this relationship. Moreover, relatively strong correlations of the reverse sign (positive) were seen for the early week puzzle days (Mon-Wed). This finding suggests that, below a particular per-clue/answer difficulty threshold mostly only attained in later week puzzles, the time penalty incurred by having to read relatively more clues was greater than the time savings from encountering relatively fewer longer answers.*              
+*Most of the strength of the all 15x15 puzzles correlation (black) was related to the large leftward shift in the FDP for the two most difficult puzzle days (Fri and Sat). '# Answers' was strongly negatively correlated with 'Average Answer Length' (see Fig. 14) and measures of answer rarity (e.g., 'Freshness Factor'; see Fig. 20). Thus, when puzzles were difficult (Fri and Sat), this fewer answers/more long answers combination meant more answers that were rarely encountered/unique. Within the most difficult puzzle days (Fri and Sat) moderately strong correlations of the same sign (-) as the overall 15x15 puzzles correlation were seen, emphasizing this relationship. Moreover, relatively strong correlations of the reverse sign (+) were seen for the early week puzzle days (Mon-Wed). This finding suggests that, below a particular per-clue/answer difficulty threshold mostly only attained in later-week puzzles, the time penalty incurred by having to read relatively more clues was greater than the time savings from encountering relatively fewer longer answers.*              
 
 **<h4>Figure 12. Number of Open Squares**
 
-
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/dc29c13c-e8b8-4068-aa66-cd1d576aff19)
-*<h5>IS2 solve times and '# Open Squares' had a moderately strong positive correlation for 15x15 puzzles (r= .51).<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c2dbd909-8e3b-4463-b0f8-34810458c03d)
+*<h5>IS2 solve times and '# Open Squares' had a moderately strong positive correlation for 15x15 puzzles (r= .5).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .56).<br>*
 
-*'# Open Squares' is a proprietary measure from XWord Info that counts all white squares that are *not* bordered by black squares. Most of the strength of the all 15x15 puzzles correlation (black) was related to the large rightward shift in the FDP for the two most difficult puzzle days (Fri and Sat), with nearly all 15x15 puzzles with >~80 open squares falling on those days. '# Open Squares' was strongly negatively correlated with '# Answers' (see Fig. 11) and strongly positively correlated with 'Average Answer Length' (see Fig. 14). For difficult puzzle days (Fri and Sat), these relationships translated to longer answers that were also more difficult. As with '# Answers' for this solver, the strongest within-puzzle day correlation of the same sign as the all 15x15 puzzles correlation (positive) was seen for the most difficult puzzle day (Sat). This indicates that there may have been an overall difficulty threshold in play for this feature to have a large impact on solve times, though weaker positive correlations were seen for all puzzle days except the easiest with the narrowest range (Mon). Because nearly all puzzles with >~100 '# Open Squares' were on Saturday, however, it is difficult to distinguish a predominately puzzle difficulty threshold effect from a feature value range one.*   
+*'# Open Squares' is a proprietary measure from XWord Info that counts all white squares that are *not* bordered by black squares. Most of the strength of the all 15x15 puzzles correlation (black) was related to the large rightward shift in the FDP for the two most difficult puzzle days (Fri and Sat), with nearly all 15x15 puzzles with >~80 open squares falling on those days. '# Open Squares' was strongly negatively correlated with '# Answers' (see Fig. 11) and strongly positively correlated with 'Average Answer Length' (see Fig. 14). For difficult puzzle days (Fri and Sat), these relationships translated to longer answers that were also more difficult. As with '# Answers' for this solver, the strongest within-puzzle day correlation of the same sign as the all 15x15 puzzles correlation (+) was seen for the most difficult puzzle day (Sat). This indicates that there may have been an overall difficulty threshold in play for this feature to have a large impact on solve times, though weaker positive correlations were seen for all puzzle days. Because nearly all puzzles with >~100 '# Open Squares' were on Saturday, however, it is difficult to distinguish a predominately puzzle difficulty threshold effect from a feature value range one.*   
     
  **<h4>Figure 13. Number of Black Squares**
 
