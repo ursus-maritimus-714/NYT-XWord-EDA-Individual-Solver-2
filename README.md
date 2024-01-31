@@ -14,28 +14,27 @@ Similar analyses to those reported here for IS2 were performed on another indivi
 
 Many analyses included in this summary compare IS2 performance to that of the GMS over the set of all IS2 solves. My extensive summary analysis of GMS performance over a 6+ year timeframe (2018-2024) can be found [here](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Global-Median-Solver?tab=readme-ov-file#readme). XWStats (Matt) determines the global median solve time (GMST) for every individual puzzle from a pool of ~1-2K individual solvers from whom he has (with their consent) acquired personal solve data. Though Matt adopted the term "global" to describe this solver sample per-puzzle, it likely skews faster than the overall population of solvers. The reasons for this assumption are twofold; only solvers who actually complete a given puzzle are included in its sample, and each sample contains only solvers motivated enough by the prospect of improvement to track their own progress to begin with. 
 
-GMSTs improved on each puzzle day over the complete set of puzzles (N=2,218) issued between January 1, 2018 and January 27, 2024 (**Figure 1**). This improvement was fairly dramatic in the first few years for some puzzle days (most prominently for Sun), and graded improvement continued for each puzzle day until the end of the sample period (top panel). The 2-year interval density plots of raw solve time distributions (bottom panels) show that performance on individual puzzle days became more consistent over time (higher peaks with narrower distributions). Because I did not have access to the raw solver data from which the GMSTs were drawn, however, it was not possible to disentangle improvement and increased consistency for individual "early adopters" of Matt's tracking software versus stronger solvers joining the solver pool over time. Note also that GMS performance was tracked in my analyses by puzzle issue date, as I did not have access to GMS puzzle completion dates. It's reasonably safe to assume, however, that the GMS (a different individual solver for most puzzles, presumably) solved in approximately the sequence of puzzle issue. IS2 performance, in contrast, was tracked by puzzle completion data since I *was* able to obtain completion timestamps for this solver with Matt's assistance.  
+GMSTs improved on each puzzle day over the complete set of puzzles (N=2,222) issued between January 1, 2018 and January 31, 2024 (**Figure 1**). This improvement was fairly dramatic in the first few years for some puzzle days (most prominently for Sun), and graded improvement continued for each puzzle day until the end of the sample period (top panel). The 2-year interval density plots of raw solve time distributions (bottom panels) show that performance on individual puzzle days became more consistent over time (higher peaks with narrower distributions). Because I did not have access to the raw solver data from which the GMSTs were drawn, however, it was not possible to disentangle improvement and increased consistency for individual "early adopters" of Matt's tracking software versus stronger solvers joining the solver pool over time. Note also that GMS performance was tracked in my analyses by puzzle issue date, as I did not have access to GMS puzzle completion dates. It's reasonably safe to assume, however, that the GMS (a different individual solver for most puzzles, presumably) solved in approximately the sequence of puzzle issue. IS2 performance, in contrast, was tracked by puzzle completion data since I *was* able to obtain completion timestamps for this solver with Matt's assistance.  
 
 **Figure 1. GMS Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/b1f6464c-b57f-402b-a2b7-8f44716f2350)
-*<h5>GMS Final (as of Jan. 27, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
-*Sun: 28.8, Mon: 5.7, Tue: 7.7, Wed: 11.4, Thu: 15.2, Fri: 17.3, Sat: 21.2*<br>
-
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/3fb789f5-9bf7-4990-9cc7-e436031aae4c)
+*<h5>GMS Final (as of Jan. 31, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
+*Sun: 29.5, Mon: 5.7, Tue: 7.6, Wed: 11.4, Thu: 15.3, Fri: 17.3, Sat: 21.5*<br>
 
 
 ## Results
 ### Individual Solver 2 (IS2) Performance Over Time
 
-IS2 solved N = 1,071 puzzles in the sample period: 89 (8.3%) in 2018, 9 in 2019 (.8%), 282 in 2020 (26.3%), 28 (2.6%) in 2021, 79 (7.4%) in 2022, and 584 (54.5%) in 2023/24 (through Jan. 28, 2024). The total solve time for IS2 was 17.1 days (2018: 2.2; 2019: .14; 2020: 5.1; 2021: .25; 2022: .97; 2023/24: 8.4). The total solve time for the GMS over this same set of puzzles was 14.2 days. 
+IS2 solved N = 1,096 puzzles in the sample period: 89 (8.1%) in 2018, 9 in 2019 (.8%), 282 in 2020 (25.7%), 28 (2.6%) in 2021, 79 (7.2%) in 2022, and 609 (55.6%) in 2023/24 (through Jan. 31, 2024). The total solve time for IS2 was 17.4 days (2018: 2.2; 2019: .14; 2020: 5.1; 2021: .25; 2022: .97; 2023/24: 8.7). The total solve time for the GMS over this same set of puzzles was 14.5 days. 
 
 IS2's per puzzle day 10-puzzle moving averages across the sample period are shown in **Figure 2** (top panel). The first 5 years were characterized by long periods of little solve activity (flat stretches in lines) punctuated by rapid and dramatic improvements across puzzle days during months-long bursts of activity. There was a short-term, spiked increase in solve times across puzzles days when solving resumed in Q2 2023 after a long layoff. Then, from late Q3 2023 through the end of the sample period, IS2 showed dramatic improvement across puzzle days relative to even pre-spike baselines. **Supplementary Figure 1** shows that the volatility of IS2's per puzzle day solve times in 2023 was *not* likely due to chance stretches of puzzles with higher or lower than usual median difficulty (as determined by GMS performance on the same puzzle set). Improvement over the last ~4 months of the sample period was especially apparent on the more difficult puzzle days (Thu-Sun). The leftward shift in peaks for the by day solve time distributions in the 2023/2024 density plot (**Fig. 2**, bottom right) clearly demonstrates this recent improvement in solve form. Additionally, overall distribution widths narrowed considerably across solve intervals for early week (Mon-Wed) puzzle days. This indicates increased consistency of solve performance over time for IS2.    
 
 **Figure 2. Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/f30407a3-d70c-4918-8ca8-59432e58f52e)
-*<h5>IS2 Final (as of Jan. 27, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
-*Sun: 18.7, Mon: 5.0, Tue: 7.0, Wed: 9.2, Thu: 19.4, Fri: 13.5, Sat: 22.4*<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/a6b33fcb-4a8b-4441-9f7a-0fef213dca7f)
+*<h5>IS2 Final (as of Jan. 31, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
+*Sun: 18.7, Mon: 5.0, Tue: 7.1, Wed: 9.2, Thu: 15.5, Fri: 14.4, Sat: 22.2*<br>
 
 
 ###
@@ -43,21 +42,20 @@ IS2's per puzzle day 10-puzzle moving averages across the sample period are show
 **Figure 3** shows IS2's solve time performance trajectory in violin plots with swarm plot overlays, broken out by 1-year solve date intervals. These representations may be somewhat easier to digest than the line plots in **Fig. 2**, as they remove the compressing effect of the long intervals with minimal solve activity. They also have the advantage of providing a clear visual sense of the number of solves and distribution shapes, per interval. Violin plots show both the range (vertical extent) and distribution characteristics (width as it varies across the y-axis range) for each puzzle day, per solve interval. Black lines on the violin plots demarcate solve time quartiles per puzzle day. Swarm plot overlays per puzzle day show individual puzzle raw solve times. The narrow geometries of the later week violin plots relative to the earlier week ones correspond to greater relative performance variability on those solve days. This phenomenon will be discussed in the final section of the summary in the context of correlation between past and future performance and prospects for predictive modeling. 
 
 **Figure 3. Solve Time Overview by Puzzle Day: Violin Plots With Swarm Plot Overlay**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/23363b58-4a67-4993-bdeb-87aea3b4e63d)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/96fe2f9f-2cb3-462f-b557-4228191915df)
 *<h5>Median[IQR] solve time (m), per puzzle day, per solve interval:*<br>
 *2018/19: Sun: 69.3[59.4-82.2], Mon: 10.3[8.7-11.8], Tue: 15.4[11.2-24.5], Wed: 21.5[14.9-34.2], Thu: 43.4[39.6-63.8], Fri: 33.3[30.7-48.5], Sat: 52.0[41.7-55.7]*<br>
 *2020-22: Sun: 43.0[36.6-52.4], Mon: 7.1[5.9-8.2], Tue: 10.6[8.7-12.6], Wed: 14.0[11.5-20.0], Thu: 25.0[18.2-31.0], Fri: 26.3[18.4-32.0], Sat: 34.8[28.0-50.4]*<br>
-*2023/24: Sun: 32.3[26.5-40.9], Mon: 5.7[4.8-6.5], Tue: 7.4[6.8-8.5],   Wed: 11.6[9.7-14.2], Thu: 20.0[15.9-25.6], Fri: 18.9[14.7-25.0], Sat: 26.2[20.7-36.2]*<br>
+*2023/24: Sun: 32.0[26.6-40.8], Mon: 5.7[4.8-6.5], Tue: 7.4[6.8-8.5],   Wed: 11.4[9.7-14.2], Thu: 20.0[15.9-25.6], Fri: 18.9[14.7-25.0], Sat: 26.2[20.7-36.2]*<br>
 
 ###
-Because over half of IS2' total solves (n=584) came in 2023-2024, and there was such rapid and dramatic improvement over the latter ~1/3 of that time range, zoom-in and 2-interval partition of this time range is depicted below in **Figure 4**. IS2 had n=337 solves in the final 3.5 months of the time range, spread roughly equivalently across puzzle days. The dramatically improved solve performance (Sat median solve time, for ex., dropped from 38.5 to 23.3 minutes) during this period was likely driven by the high volume of solving in a condensed period of time.    
+Because over half of IS2' total solves (n=609) came in 2023-2024, and there was such rapid and dramatic improvement over the latter ~1/3 of that time range, zoom-in and 2-interval partition of this time range is depicted below in **Figure 4**. IS2 had n=362 (59.4%) of these solves in the final 3.5 months of the time range, spread roughly equivalently across puzzle days. The dramatically improved solve performance (Sat median solve time, for ex., dropped from 38.5 to 23.2 minutes) during this period was likely driven by the high volume of solving in a condensed time frame.    
 
 **Figure 4. Solve Performance in 2023-2024**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/5a553512-94d0-489b-9921-212e7d83a5af)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/6eb7595f-a222-4381-97b7-c896a62b9f5f)
 *<h5>Median[IQR] solve time (m), per puzzle day, per solve interval:*<br>
 *Apr 2023-Sept 2023: Sun: 41.2[32.6-47.1], Mon: 5.9[5.5-6.7], Tue: 7.7[6.9-8.9], Wed: 13.2[10.6-14.9], Thu: 26.4[18.9-32.1], Fri: 24.2[18.0-32.0], Sat: 38.5[26.7-46.1]*<br>
-*Oct 2023-Jan 2024:  Sun: 27.8[23.8-33.6], Mon: 5.4[4.7-6.3], Tue: 7.2[6.6-8.4], Wed: 10.1[8.4-12.1], Thu: 17.0[13.9-21.0], Fri: 16.9[12.8-22.6], Sat: 23.3[17.4-31.3]*<br>
-
+*Oct 2023-Jan 2024:  Sun: 28.3[23.7-33.9], Mon: 5.3[4.6-6.2], Tue: 7.0[6.6-8.3], Wed: 10.2[8.5-12.0], Thu: 16.7[13.4-20.33333], Fri: 16.2[12.8-22.4], Sat: 23.2[17.1-28.5]*<br>
 
 
 ### Individual Solver 2 (IS2) Performance Vs Global Median Solver (GMS) 
@@ -265,7 +263,7 @@ GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reachin
 
 **<h4>Figure S1. IS2 10-Puzzle Solve Time Moving Averages Adjusted by GMS Performance, by Puzzle Day** 
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/b94085ab-51c4-4457-9431-049c06a7d2f8)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/db42e6e2-7d03-48c5-ab5f-409158db9523)
 *<h5>For each puzzle completed by IS2, % difference for the raw solve time from the global median solve time (GMST) was computed. The 10-puzzle moving average of this difference was then plotted, per puzzle day, by completion date. The volatility present in the raw solve times (see **Fig. 2 and Fig. 4**), including the upward spike in Q2-early Q3 2023, was still mostly present in these adjusted data plots, indicating that this volatility was due to factors other than by chance stretches of puzzles with substantially greater or lesser difficulty per puzzle day.*
 
 **<h4>Figure S2. Correlation Heatmapping of IS2 Individual Puzzle Performance vs Grid, Answer and Past Performance Features by Puzzle Day (15x15 Puzzle Days)**
