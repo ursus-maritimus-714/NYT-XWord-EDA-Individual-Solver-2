@@ -158,7 +158,8 @@ Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles
 
 **<h4>Figure 12. Number of Open Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/4ffe6aab-5800-4b20-a6e8-2be6d8a3a8f1)
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/dc29c13c-e8b8-4068-aa66-cd1d576aff19)
 *<h5>IS2 solve times and '# Open Squares' had a moderately strong positive correlation for 15x15 puzzles (r= .51).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .56).<br>*
 
@@ -194,7 +195,8 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .20)
 
 **<h4>Figure 16. Number of Fill-in-the-Blank Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/0d7f852a-3799-4fe1-afdd-bc273918a5f6)
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/05a89145-4268-4cbb-8e2e-ec6597d85ed0)
 *<h5>IS2 solve times and '# Fill-in-the-Blank Answers' had a weak-to-moderate negative correlation for 15x15 puzzles (r= -.25).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.26).<br>*
 
