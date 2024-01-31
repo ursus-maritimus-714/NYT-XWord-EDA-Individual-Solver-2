@@ -182,7 +182,6 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 **<h4>Figure 15. Number of Cheater Squares**
 
-
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/58253866-57a4-44f9-a415-f811c3a200fe)
 *<h5>IS2 solve times and '# Cheater Squares' had a weak positive correlation for 15x15 puzzles (r= .14).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .2).<br>*
@@ -201,7 +200,7 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
  
 **<h4>Figure 17. Scrabble Average**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/6f03c087-19f8-4e05-b1e8-b254493b39fe)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/615d0c6a-8657-4171-b7d1-7b58b7464324)
 *<h5>IS2 solve times and 'Scrabble Average' had a weak-to-nonexistent negative correlation for 15x15 puzzles (r= <-.01).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.03).<br>*
 
@@ -209,7 +208,7 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
 
 **<h4>Figure 18. Number of Scrabble Illegal Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/ee816095-f269-4cce-98ea-5ccf246911b9)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/257baf4b-3cab-4a28-8eaa-56287e78829a)
 *<h5>IS2 solve times and '# Scrabble Illegal' had a weak positive correlation for 15x15 puzzles (r= .13).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .19).<br>*
 
@@ -217,8 +216,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .19)
     
  **<h4>Figure 19. Number of Unique Answers**
 
-
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/b42a3ead-28cc-4e26-aa40-d5bf6a8d02a9)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/b88b42ba-c094-4847-9c53-e26ab48279f3)
 *<h5>IS2 solve times and '# Unique Answers' had a weak-to-moderate positive correlation for 15x15 puzzles (r= .31).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .38).<br>*
 
@@ -226,13 +224,14 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .38)
 
 **<h4>Figure 20. Freshness Factor**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/941def94-aed5-4850-b049-74a2bea9d9f0)
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/1d5a85c2-69a9-4f29-962c-f2813c355003)
 *<h5>IS2 solve times and 'Freshness Factor' had a moderately strong positive correlation for 15x15 puzzles (r= .58).<br>
 GMS correlation strength on the same set of 15x15 puzzles was considerably stronger, reaching the level of strong correlation (r = .67).<br>*
 
-*<h5>'Freshness Factor' is yet another proprietary XWord Info measure that assesses the aggregate relative novelty of all answers in a given crossword puzzle as compared to those in all other crossword puzzles in the NYT archive. The much stronger correlation to IS2 raw solve times as compared to that for '# Unique Answers' suggests that there's much to be gained by taking a graded, as opposed to all-or-none, approach in assessing answer rarity. Overall, this feature had the strongest correlation with IS2 solve times of any grid, clue or answer feature evaluated (but see Fig. 22 for a past performance feature with a stronger correlation to raw solve times).* 
+*<h5>'Freshness Factor' is another proprietary XWord Info measure that assesses the aggregate relative novelty of all answers in a given crossword puzzle as compared to those in all other crossword puzzles in the NYT archive. The much stronger correlation to IS2 raw solve times as compared to that for '# Unique Answers' suggests that there's much to be gained by taking a graded, as opposed to all-or-none, approach in assessing answer rarity. Overall, this feature had the strongest correlation with IS2 solve times of any grid, clue or answer feature evaluated (but see Fig. 22 for a past performance feature with a stronger correlation to raw solve times).* 
 
-*Additionally, with potential relevance to predictive modeling, the 15x15 puzzle days peaked in this measure (seen in the FDP) in relatively close concordance to the by day peaks in raw solve times (see **Figs. 2 and 4**) for IS2. The only other puzzle feature coming close to this degree and concordance of peak separation was 'Average Answer Length' (see Fig. 14), though 'Freshness Factor' showed a Monday-Tuesday separation more in line with the solve time peaks separation for those two easy puzzle days. The positive correlation for this feature was also seen to a relatively consistent degree within each of the individual puzzle days. Saturday, strikingly, had both the strongest within-day (15x15) correlation and also the widest range of feature values of any individual puzzle day. The observations discussed here lead me to believe that 'Freshness Factor' will be the most useful puzzle feature evaluated presently in terms of predictive modeling of solve performance.*
+*Additionally, with potential relevance to predictive modeling, the 15x15 puzzle days peaked in this measure (seen in the FDP) in relatively close concordance to the by day peaks in raw solve times (see **Figs. 2 and 4**) for IS2. The only other puzzle feature coming close to this degree and concordance of peak separation was 'Average Answer Length' (see Fig. 14), though 'Freshness Factor' showed a Monday-Tuesday separation more in line with the solve time peaks separation for those two easy puzzle days. The positive correlation for this feature was also seen within each of the individual puzzle days, though more strongly for the later week puzzle days. The greater strength for the later-week puzzle days suggests boh that there may be a puzzle difficulty interaction and that there may be more of an effect above a feature value of ~45, where only Thur-Sat had a significant number of puzzles. Saturday had both one of the strongest within-day (15x15) correlations and also the widest range of feature values of any individual puzzle day. Nearly every puzzle with a feature value >60 was on that day, and nearly all were associated with slower solves. The observations discussed here lead me to believe that 'Freshness Factor' will be the most useful puzzle feature evaluated presently in terms of predictive modeling of solve performance.*
 
 **<h4>Figure 21. Number of Wordplay Clues**
 
