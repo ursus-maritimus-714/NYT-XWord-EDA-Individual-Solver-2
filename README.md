@@ -52,7 +52,8 @@ IS2's per puzzle day 10-puzzle moving averages across the sample period are show
 Because over half of IS2' total solves (n=609) came in 2023-2024, and there was such rapid and dramatic improvement over the latter ~1/3 of that time range, zoom-in and 2-interval partition of this time range is depicted below in **Figure 4**. IS2 had n=362 (59.4%) of these solves in the final 3.5 months of the time range, spread roughly equivalently across puzzle days. The dramatically improved solve performance (Sat median solve time, for ex., dropped from 38.5 to 23.2 minutes) during this period was likely driven by the high volume of solving in a condensed time frame.    
 
 **Figure 4. Solve Performance in 2023-2024**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/7ae13849-50ee-490f-b1f2-af2fbc9aa1b7)
+
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/ca4034c3-36b9-49bb-90ed-4d6ee3341227)
 *<h5>Median[IQR] solve time (m), per puzzle day, per solve interval:*<br>
 *Apr 2023-Sept 2023: Sun: 41.2[32.6-47.1], Mon: 5.9[5.5-6.7], Tue: 7.7[6.9-8.9], Wed: 13.2[10.6-14.9], Thu: 26.4[18.9-32.1], Fri: 24.2[18.0-32.0], Sat: 38.5[26.7-46.1]*<br>
 *Oct 2023-Jan 2024:  Sun: 28.3[23.7-33.9], Mon: 5.3[4.6-6.2], Tue: 7.0[6.6-8.3], Wed: 10.2[8.5-12.0], Thu: 16.7[13.4-20.33333], Fri: 16.2[12.8-22.4], Sat: 23.2[17.1-28.5]*<br>
@@ -68,7 +69,7 @@ Per puzzle day regression lines show that there was a high degree of correlation
 
 **Figure 5. IS2 vs GMS: Comparison of Raw Solve Performance by Puzzle Day and Solve Interval**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/f0bad2b8-e508-4ce5-972c-ea4429a50aa1)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/2195a51f-52f7-4afd-a41d-67f2f3588248)
 *<h5> Win % for IS2 vs GMS, by IS2 solve interval:*<br>
 *pre-2023: All: 28.7, Sun: 24.2, Mon: 48.1, Tue: 34.6, Wed: 29.1, Thu: 20.8, Fri: 22.2, Sat: 13.7*<br>
 *2023/24:  All: 51.6, Sun: 51.1, Mon: 66.2, Tue: 72.0, Wed: 57.1, Thu: 45.2, Fri: 46.6, Sat: 32.3*<br>
@@ -84,7 +85,7 @@ It's no surprise that "easy" concordance was more common than "hard" concordance
 
 **Figure 6. IS2 vs GMS: Comparison of Baseline-Adjusted Solve Performance by Puzzle Day and Solve Interval**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/15a1c82c-9e27-44a5-9d5f-eec5187bdba7)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/eebe9303-e39f-4d63-9b6f-e21df7a708ce)
 *<h5> IS2-GMS Quadrant % by IS2 solve period:*<br>
 *LL: Relatively Easy for Both IS2 & GMS/ UR: Hard for IS2 & GMS/ UL: Easy for GMS-Hard for IS2/ LR: Easy for IS2-Hard for GMS*<br> 
 *pre-2023: All: 48.8/24.8/10.0/16.5, Sun: 52.5/23.0/9.8/14.8, Mon: 41.0/25.6/7.7/25.6, Tue: 43.8/27.5/15.0/13.8, Wed: 47.4/23.1/7.7/21.8, Thu: 53.5/25.3/8.5/12.7,<br> Fri: 51.6/24.2/14.5/9.7, Sat: 56.0/24.0/6.0/14.0*<br>
