@@ -52,7 +52,7 @@ IS2's per puzzle day 10-puzzle moving averages across the sample period are show
 Because over half of IS2' total solves (n=609) came in 2023-2024, and there was such rapid and dramatic improvement over the latter ~1/3 of that time range, zoom-in and 2-interval partition of this time range is depicted below in **Figure 4**. IS2 had n=362 (59.4%) of these solves in the final 3.5 months of the time range, spread roughly equivalently across puzzle days. The dramatically improved solve performance (Sat median solve time, for ex., dropped from 38.5 to 23.2 minutes) during this period was likely driven by the high volume of solving in a condensed time frame.    
 
 **Figure 4. Solve Performance in 2023-2024**
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/6eb7595f-a222-4381-97b7-c896a62b9f5f)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/7ae13849-50ee-490f-b1f2-af2fbc9aa1b7)
 *<h5>Median[IQR] solve time (m), per puzzle day, per solve interval:*<br>
 *Apr 2023-Sept 2023: Sun: 41.2[32.6-47.1], Mon: 5.9[5.5-6.7], Tue: 7.7[6.9-8.9], Wed: 13.2[10.6-14.9], Thu: 26.4[18.9-32.1], Fri: 24.2[18.0-32.0], Sat: 38.5[26.7-46.1]*<br>
 *Oct 2023-Jan 2024:  Sun: 28.3[23.7-33.9], Mon: 5.3[4.6-6.2], Tue: 7.0[6.6-8.3], Wed: 10.2[8.5-12.0], Thu: 16.7[13.4-20.33333], Fri: 16.2[12.8-22.4], Sat: 23.2[17.1-28.5]*<br>
