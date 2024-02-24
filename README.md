@@ -95,14 +95,14 @@ It's no surprise that "easy" concordance was more common than "hard" concordance
 
 ### IS2 Performance by Puzzle Constructor(s)
 
-A high proportion of puzzles solved by IS2 (70.6%) were authored by either repeat individual constructors or repeat specific constructor teams (both referred to as "constructor" from here forward). This afforded the opportunity to evaluate which constructors IS2 tended, in a relative sense, to struggle against or do well against. Per constructor, the mean of % difference from puzzle day-specific recent performance baseline (RPB; see text section pertaining to **Fig. 6**) was computed. This measure allowed assessment of constructor difficulty adjusted for solver form at the time of a given solve and constructor past puzzle day heterogeneity. **Figure 7** shows heatmapping of IS2 performance using this normalized measure, along with GMS performance on the same set of puzzles, against the n=82 constructor(s) contributing >=4 puzzles over the sample period. While only 14.5% of constructor(s) contributed this many puzzles, this group contributed 44.3% of all puzzles solved by IS2.
+A high proportion of puzzles solved by IS2 (70.7%) were authored by either repeat individual constructors or repeat specific constructor teams (both referred to as "constructor" from here forward). This afforded the opportunity to evaluate which constructors IS2 tended, in a relative sense, to struggle against or do well against. Per constructor, the mean of % difference from puzzle day-specific recent performance baseline (RPB; see text section pertaining to **Fig. 6**) was computed. This measure allowed assessment of constructor difficulty adjusted for solver form at the time of a given solve and constructor past puzzle day heterogeneity. **Figure 7** shows heatmapping of IS2 performance using this normalized measure, along with GMS performance on the same set of puzzles, against the n=82 constructor(s) contributing >=4 puzzles over the sample period. While only 14.5% of constructor(s) contributed this many puzzles, this group contributed 44.2% of all puzzles solved by IS2.
 
 Warmer colors (-%) in **Fig. 7** indicate that on average the solver was relatively fast against a given constructor; cooler colors (+%) indicate slower solves. Mean difference from RPB for IS2 solve time against different constructors ranged from -58.9% for "easiest constructor" (Brian Thomas) to +39.3% for "hardest constructor" (Kyle Dolan). The range for the GMS was considerably smaller, from -38.2% for "easiest constructor" (Nate Cardin) to +15.2% for "hardest constructor" (Byron Walden). "Hot" or "cold" constructors for IS2 tended to be relatively fast or slow, respectively, for the GMS. However, there was clearly a substantial degree of discordance in terms of specific order and some constructors stood out as being either relatively "hot" for IS2 but relatively "cold" for the GMS (e.g., Adrian Johnson, Drew Schmenner, Peter Collins) or vice versa (e.g., Rafael Musa, Ruth Bloomfield Margolin, Will Nediger). 
 
 
 **Figure 7. Heatmapping of IS2 and GMS Performance Against Individual Constructors**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/08874f7a-ae89-4a98-9fd3-e5d356c7e336)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/f3564b6c-7b09-48bf-8cd7-fde8fec0f0e0)
 *<h5>Constructor rankings are sorted by normalized IS2 relative solve speed. GMS values over the same set of puzzles are included for comparison.*<br>
 ###
 The next correlational analysis was aimed at assessing the potential predictive value of IS2's baseline-adjusted past performance against specific constructors on their future performance against the same constructor. **Figure 8** shows this correlation between IS2 past performance (as mean % difference from RPB) against a given constructor (x-axis) and performance on the next solved individual puzzle by that constructor (y-axis). This analysis was restricted to only the n=277 puzzles by the constructors included in **Fig. 7** that were solved *after* >=3 previous puzzles by the same constructor (based on puzzle completion date for IS2, but issue date for GMS). There was a weak-to-moderate positive correlation for IS2 (r=.22), and a stronger one for GMS (r=.27). This weaker correlation for the individual solver relative to the GMS was also seen for IS1 (see link to analysis in Introduction). This disparity may have been due to the fact that performance for a single solver is inherently subject to more puzzle-to-puzzle variability than that of an "aggregate solver". Regardless, the evident positive correlations for all 3 solvers at relatively low puzzle n's provides optimism that including past performance vs constructor will have predictive value in the modeling phase.     
@@ -116,11 +116,11 @@ The next correlational analysis was aimed at assessing the potential predictive 
 
 Many external variables are likely to have an impact on individual solver performance, for the large majority of which data collection would be very difficult. Examples include data relevant to how tired, stressed, influenced by caffeine and other substances, or distracted by other sensory stimuli the solver was while working on a given puzzle. The hardware technology used to solve a given puzzle (e.g., phone vs tablet vs computer) will also likely influence solve times in idiosyncratic ways. One external variable that we *are* fortunate to have data on (thanks, once again, to Matt at XW Stats) is time of day at puzzle completion. **Figure 9** shows IS2's solve performance by hour of day, overall (black) and by puzzle day (by color). To control for day-specific puzzle difficulty, solve times are expressed as % difference from puzzle day-specific recent performance baseline (RPB). 
 
-The majority of IS2 solves occurred in the evening (65.9% after 6 PM and 35.4% after 9 PM). One interesting trend was that very few solves between 12-8 AM (2/81; 2.5%) were "very fast" (>=50% faster than day-specific RPB). In contrast, 63/552 (11.4%) solves between 8-11 PM qualified as "very fast". So while there was no striking overall relationship between solve time and hour of completion, IS2's top performances were much more likely (by nearly 5x) to come in the evening than late at night or in the early morning. Nonetheless, interpretation of this result is still difficult because puzzle *start* times were not available. Thus, it can't be distinguished with the available data whether IS2 was a better performer at night or simply finished easier puzzles before bedtime and left harder ones for morning completion. Another caveat is that all solve times were recorded with respect to the US Eastern Time Zone, and there is no indication for if/when individual puzzles were completed in other time zones.    
+The majority of IS2 solves occurred in the evening (65.8% after 6 PM and 35.3% after 9 PM). One interesting trend was that very few solves between 12-8 AM (2/81; 2.5%) were "very fast" (>=50% faster than day-specific RPB). In contrast, 63/552 (11.4%) solves between 8-11 PM qualified as "very fast". So while there was no striking overall relationship between solve time and hour of completion, IS2's top performances were much more likely (by nearly 5x) to come in the evening than late at night or in the early morning. Nonetheless, interpretation of this result is still difficult because puzzle *start* times were not available. Thus, it can't be distinguished with the available data whether IS2 was a better performer at night or simply finished easier puzzles before bedtime and left harder ones for morning completion. Another caveat is that all solve times were recorded with respect to the US Eastern Time Zone, and there is no indication for if/when individual puzzles were completed in other time zones.    
 
 **Figure 9. IS2 Recent Performance Baseline-Adjusted Solve Times by Hour of Completion**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c85507d2-ca11-42f3-8b62-ce51814e39c3)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/0bec8c88-66aa-42f9-ab22-228d3e55bdcb)
 *<h5>Times are all US Eastern Time Zone, adjusted for Daylight Savings Time as necessary.*
 
 ### Correlations of IS2 Performance on Individual Puzzles to Puzzle-Specific Features and Recent Past Performance
@@ -134,7 +134,7 @@ One additional note on data inclusion time range: 2018/19 solves (n=98) have bee
 **Figure 10. Correlation Heatmapping of IS2 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c988e85a-5a41-4114-81db-04146d67a232)
-*<h5>Correlation heatmaps derived from N=943 15x15 (left panel) and N=148 21x21 (right panel) puzzles solved by IS2 from 2020-2024.*
+*<h5>Correlation heatmaps derived from N=945 15x15 (left panel) and N=148 21x21 (right panel) puzzles solved by IS2 from 2020-2024.*
 
 ###
 **Figure 11** through **Figure 22** are companion figures to the correlation heatmapping shown in **Fig. 10**. These figures show, across all 15x15 puzzle days (black) and by-puzzle-day (colors), scatterplots of select features of interest vs IS2 raw solve times at the level of individual puzzles. A feature distribution density plot (FDP) shows puzzle day-specific trends in the distribution of each plotted feature. 
@@ -245,12 +245,12 @@ GMS correlation strength on the same set of 15x15 puzzles was substantially stro
 
 **<h4>Figure 22. Decay-Time Weighted Recent Performance (RPB)**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/ef6208cf-3bd6-4dfa-a729-e9842d67a3fd)
-*<h5>IS2 next raw solve time and IS2 'Recent Performance Baseline (RPB)' had a strong positive correlation on 15x15 puzzles (r= .73).<br>
-GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reaching the level of very strong correlation (r = .86).<br>*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/27885fb0-47e5-45ed-993f-0d9f07bdbe59)
+*<h5>IS2 next raw solve time and IS2 Recent Performance Baseline (RPB) had a strong positive correlation on 15x15 puzzles (r= .73).<br>
+GMS next raw solve time and GMS RPB correlation strength was stronger, reaching the level of very strong correlation (r = .87).<br>*
 
-*<h5> Next raw solve time and 'RPB' Correlation Strength by Solver (IS2 or GMS) and Puzzle Day:*<br>
-*IS2: Sun: .54, Mon: .47, Tue: .48, Wed: .43, Thu: .34, Fri: .39, Sat: .42*<br>
+*<h5> Next raw solve time and RPB Correlation Strength by Solver (IS2 or GMS) and Puzzle Day:*<br>
+*IS2: Sun: .54, Mon: .47, Tue: .48, Wed: .43, Thu: .34, Fri: .39, Sat: .43*<br>
 *GMS: Sun: .57, Mon: .61, Tue: .48, Wed: .42, Thu: .38, Fri: .42, Sat: .25*<br>
 
 *<h5>The all 15x15 puzzles correlation for this feature was considerably stronger than that for any puzzle feature (**Figs. 11-21**). The implication is that time decay-time weighted IS2 recent past performance (RPB over the 10 day-specific puzzles previous to a given solve) will likely have more predictive value for the next GMS raw solve time than any single puzzle, clue or answer feature.* 
