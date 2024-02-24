@@ -167,17 +167,17 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .56)
     
  **<h4>Figure 13. Number of Black Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/ff0e5faf-59d7-4d10-838f-d33543d57c10)
-*<h5>IS2 solve times and '# Black Squares' had a weak-to-moderate negative correlation for 15x15 puzzles (r= -.31).<br>
-GMS correlation strength on the same set of 15x15 puzzles was stronger (r = -.35).<br>*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/75b17a28-b20c-452e-95d3-37bc9812b99b)
+*<h5>IS2 solve times and '# Black Squares' had a weak-to-moderate negative correlation for 15x15 puzzles (r= -.32).<br>
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.35).<br>*
 
 *Most of the strength of the all 15x15 puzzles correlation (black) was related to the large leftward shift in the FDP for the two most difficult puzzle days (Fri and Sat), with nearly all 15x15 puzzles with <~32 black squares falling on those days. '# Black Squares' was strongly negatively correlated with both '# Open Squares' (see Fig. 12) and 'Average Answer Length' (see Fig. 14). So an increase in '# Black Squares' meant shorter, easier answers and a faster solve on average. Within Saturday a relatively strong correlation of the same sign as the all 15x15 puzzles correlation (-) was seen, emphasizing these dynamics. All other puzzle days showed negative correlations of variable strength for this solver, ranging from weak to moderate strength. This raises the possibility that there is a effect of '# Black Squares', within the feature value range of a given puzzle day, that scales to some degree with puzzle difficulty and may be of use in predictive modeling.*
 
 **<h4>Figure 14. Average Answer Length**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/61f10f5b-dde8-452d-a250-f668dc31f3a8)
-*<h5>IS2 solve times and 'Average Answer Length' had a moderately strong positive correlation for 15x15 puzzles (r= .57).<br>
-GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of strong correlation (r = .67).<br>*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/de15da76-344f-4f4d-80bc-7eec3dcf57a0)
+*<h5>IS2 solve times and 'Average Answer Length' had a moderately strong positive correlation for 15x15 puzzles (r= .56).<br>
+GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of strong correlation (r = .66).<br>*
 
 *The moderately strong all 15x15 puzzles correlation was related to the large rightward shift in the FDP for the two most difficult puzzle days (Fri and Sat). Saturday also showed a relatively strong positive correlation across a wide range of feature values, with 'Average Answer Length' >~5.7 associated with mostly slower solves. As already discussed in the context of Figs. 11 and 12, 'Average Answer Length' was strongly negatively correlated with '# Answers' (see Fig. 11) and strongly positively correlated with measures of answer rarity (e.g. 'Freshness Factor; see Fig. 20). So it makes intuitive sense that as 'Average Answer Length' increased, particularly on difficult puzzle days, the answers themselves became more difficult and slowed down solve times even as they decreased in absolute number.* 
 
@@ -185,9 +185,9 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 **<h4>Figure 15. Number of Cheater Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/58253866-57a4-44f9-a415-f811c3a200fe)
-*<h5>IS2 solve times and '# Cheater Squares' had a weak positive correlation for 15x15 puzzles (r= .14).<br>
-GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .2).<br>*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/ab2953e2-6f82-4994-8569-e27406c654ec)
+*<h5>IS2 solve times and '# Cheater Squares' had a weak positive correlation for 15x15 puzzles (r= .13).<br>
+GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .19).<br>*
 
 *Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name). It can be seen in the FDP that large numbers of them (>~10) almost exclusively appeared on the difficult puzzle days (Fri and Sat), which likely accounted for the (modest) positive correlation across all 15x15 puzzles. Saturday, with by far the widest feature value range of any of the 15x15 puzzle days, showed a moderate reverse sign (-) correlation. Each of the other 15x15 puzzle days except for Friday also showed some degree of reverse sign (-) correlation. This is not really at odds with the overall 15x15 positive correlation, since these squares are ultimately just black squares even if they facilitate tricky constructions for difficult puzzles. Add enough of them at a given puzzle difficulty level and they will reduce solve time simply by lowering the amount of fill. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
 
@@ -195,7 +195,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .2).
 
 **<h4>Figure 16. Number of Fill-in-the-Blank Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/750ab47d-7c9c-4a0b-949f-28c9935d8942)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/76785960-daf7-45f2-bd89-b2d6e2d9de9d)
 *<h5>IS2 solve times and '# Fill-in-the-Blank Answers' had a weak-to-moderate negative correlation for 15x15 puzzles (r= -.24).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.26).<br>*
 
@@ -203,32 +203,32 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
  
 **<h4>Figure 17. Scrabble Average**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/615d0c6a-8657-4171-b7d1-7b58b7464324)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/994fca4e-75dd-4cfd-8bf6-b041c84644ce)
 *<h5>IS2 solve times and 'Scrabble Average' had a weak-to-nonexistent negative correlation for 15x15 puzzles (r= <-.01).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.03).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.02).<br>*
 
 *'Scrabble Average' is another proprietary XWord Info measure, in which each letter in the answer grid is assigned its equivalent value in Scrabble. Since tile values in Scrabble increase with rarity of letter frequency in English texts, it would make sense that a higher value for this feature would be associated with *answers* of greater rarity. The more difficult 15x15 puzzle days (Thu-Sat) did show this tendency with (modest) positive correlations, suggesting that maybe there's a difficulty threshold for that relationship to manifest. Furthermore, 'Scrabble Average' had only moderate positive correlations with other more direct measures of answer rarity both across 15x15 puzzles (see Fig. 9) and specifically within the later-week puzzle days (see Supp. Fig. 1). Given that these more direct measures of answer rarity DID have strong positive correlations to solve times (see Figs. 18-20), this feature is a candidate to either be left out of predictive modeling entirely or to be combined with other answer rarity/difficulty measures to generate a novel predictive feature of slightly different flavor.*
 
 **<h4>Figure 18. Number of Scrabble Illegal Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/257baf4b-3cab-4a28-8eaa-56287e78829a)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c9adb8f7-2ea0-4383-8cd3-3d87eb98b082)
 *<h5>IS2 solve times and '# Scrabble Illegal' had a weak positive correlation for 15x15 puzzles (r= .13).<br>
-GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .19).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .18).<br>*
 
 *'# Scrabble Illegal' answers is a proprietary measure of XWord Info that gets at answer rarity more directly than does 'Scrabble Average'. Interestingly, the distributions for 15x15 puzzle days in the FDP were highly overlapping, other than a small leftward shift for Monday and Tuesday that likely accounted for the (modest) overall 15x15 puzzles positive correlation. '# Scrabble Illegal" had only moderate positive correlations with the most direct measures of answer rarity ('# Unique Answers' and 'Freshness Factor'; see Figs. 19 and 20), which was somewhat surprising to me. There were hints, particularly in the Monday and Saturday correlation plots, that this feature might have impacted solve times at the extreme low and high ends of its value range. However, taken together with the weak correlation to solve times shown by this feature, the findings here suggest that more non-standard vocabulary *alone* may not strongly signify or predict puzzle difficulty.*  
     
  **<h4>Figure 19. Number of Unique Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/b88b42ba-c094-4847-9c53-e26ab48279f3)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/9d43545f-976a-40e2-bd9d-2bf4bc14ca11)
 *<h5>IS2 solve times and '# Unique Answers' had a weak-to-moderate positive correlation for 15x15 puzzles (r= .31).<br>
-GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .38).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .39).<br>*
 
 *<h5>A unique answer is defined here as one that does not appear in any other NYT crossword puzzle in either the Shortz or pre-Shortz eras (either before or after the puzzle release date). The strength (albeit moderate) of the all 15x15 puzzle day correlation was related to the easiest puzzle day (Monday) having a leftward shift in the FDP while the most difficult puzzle days (Fri and Sat) had rightward shifts. Though mostly of the weak-to-moderate variety, same sign (+) correlations relative to the all 15x15 puzzles one were seen on all puzzle days except for Friday. Across puzzle days, puzzles at the high end of a given day's feature value range can be seen to associate with slower solves. Thus, although uniqueness is perhaps an overly stringent criterion to capture answer unusualness, there may still be a signal useful for prediction at the high end of the feature value range that scales with puzzle difficulty.*
 
 **<h4>Figure 20. Freshness Factor**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/1d5a85c2-69a9-4f29-962c-f2813c355003)
-*<h5>IS2 solve times and 'Freshness Factor' had a moderately strong positive correlation for 15x15 puzzles (r= .58).<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/28bd6981-9df1-4081-908d-0eb3f774d8b6)
+*<h5>IS2 solve times and 'Freshness Factor' had a moderately strong positive correlation for 15x15 puzzles (r= .57).<br>
 GMS correlation strength on the same set of 15x15 puzzles was considerably stronger, reaching the level of strong correlation (r = .67).<br>*
 
 *<h5>'Freshness Factor' is another proprietary XWord Info measure that assesses the aggregate relative novelty of all answers in a given crossword puzzle as compared to those in all other crossword puzzles in the NYT archive. The much stronger correlation to IS2 raw solve times as compared to that for '# Unique Answers' suggests that there's much to be gained by taking a graded, as opposed to all-or-none, approach in assessing answer rarity. Overall, this feature had the strongest correlation with IS2 solve times of any grid, clue or answer feature evaluated (but see Fig. 22 for a past performance feature with a stronger correlation to raw solve times).* 
@@ -237,27 +237,27 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 
 **<h4>Figure 21. Number of Wordplay Clues**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/89abb9f5-6944-4b2e-983a-68c06d183c55)
-*<h5>IS2 solve times and '# Wordplay Clues' had a moderate positive correlation for 15x15 puzzles (r= .32).<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/25278587-2f9e-4193-8802-b86adda3f9d8)
+*<h5>IS2 solve times and '# Wordplay Clues' had a moderate positive correlation for 15x15 puzzles (r= .31).<br>
 GMS correlation strength on the same set of 15x15 puzzles was substantially stronger (r = .44).<br>*
 
 *<h5>'# Wordplay' clues is an (admittedly) somewhat subjective measure that I have manually evaluated and calculated clue-by-clue across (most of) the entire puzzle sample completed by IS2. The FDP for this feature had some interesting properties, including the clear result that late-week (Thu-Sat) puzzles indeed had a larger allocation of 'trickier' clues than early-week puzzles. There was also a prominent leftward shift for Monday puzzles, though with a strong second peak aligned with the Tuesday peak. Taken together, these early and late-week distribution offsets were related to the moderate overall positive correlation across all 15x15 puzzles. Only the early-week 5x15 puzzle days (and Sunday) showed any semblance of a (+) correlation, with the rare puzzles at the high end of those days' feature value ranges associating with slower solves. '# Wordplay' may have some value to predictive modeling of solve times, though possibly more so for the easy puzzle days when outlier feature values occur.* 
 
 **<h4>Figure 22. Decay-Time Weighted Recent Performance (RPB)**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/a93aa319-7bcd-43d6-ad94-8dbdcebc8782)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/ef6208cf-3bd6-4dfa-a729-e9842d67a3fd)
 *<h5>IS2 next raw solve time and IS2 'Recent Performance Baseline (RPB)' had a strong positive correlation on 15x15 puzzles (r= .73).<br>
-GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reaching the level of very strong correlation (r = .87).<br>*
+GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reaching the level of very strong correlation (r = .86).<br>*
 
 *<h5> Next raw solve time and 'RPB' Correlation Strength by Solver (IS2 or GMS) and Puzzle Day:*<br>
-*IS2: Sun: .48, Mon: .50, Tue: .47, Wed: .45, Thu: .36, Fri: .32, Sat: .39*<br>
-*GMS: Sun: .56, Mon: .59, Tue: .49, Wed: .39, Thu: .35, Fri: .40, Sat: .22*<br>
+*IS2: Sun: .54, Mon: .47, Tue: .48, Wed: .43, Thu: .34, Fri: .39, Sat: .42*<br>
+*GMS: Sun: .57, Mon: .61, Tue: .48, Wed: .42, Thu: .38, Fri: .42, Sat: .25*<br>
 
-*<h5>The all 15x15 puzzles correlation for this feature was considerably stronger than that for any puzzle feature (**Figs. 11-21**). The implication is that time decay-time weighted IS2 recent past performance (RPB over the 20 day-specific puzzles previous to a given solve) will likely have more predictive value for the next GMS raw solve time than any single puzzle, clue or answer feature.* 
+*<h5>The all 15x15 puzzles correlation for this feature was considerably stronger than that for any puzzle feature (**Figs. 11-21**). The implication is that time decay-time weighted IS2 recent past performance (RPB over the 10 day-specific puzzles previous to a given solve) will likely have more predictive value for the next GMS raw solve time than any single puzzle, clue or answer feature.* 
 
-*Not all puzzle days were created equally, however, with regard to correlational strength (and, potentially, predictive power) of RPB and next raw solve time. Monday (r=.5) having a higher correlation relative to the other 15x15 puzzle days was unsurprising, given how few "degrees of freedom" there were in the easiest puzzles. Monday and Tuesday had the highest and second highest, respectively, 15x15 puzzle day correlations between RPB and next raw solve time for all 3 solvers (GMS, IS1, IS2). On the other side of the spectrum, the puzzle day with the second lowest correlation for IS2 was Thursday (r=.36). This was notable because Thursday came in as the day with the lowest correlation by a large margin (r=.16) for IS1 (see analysis linked in Introduction) as well as the second lowest correlation of any puzzle day for the GMS (.35). Thus, variability in performance on that puzzle day due to outsized heterogeneity of puzzle difficulty and gimmickry may generalize across the solver pool. Thursday puzzles had a large degree of heterogeneity, with nearly all puzzles on that day involving a "trick" of some variety (including rebuses of various flavors; see Supp. Fig. 2).* 
+*Not all puzzle days were created equally, however, with regard to correlational strength (and, potentially, predictive power) of RPB and next raw solve time. Monday (r=.47) and Tuesday (r=.48) having higher correlations relative to the other 15x15 puzzle days was unsurprising, given how few "degrees of freedom" there were in the easiest puzzles. Monday and Tuesday had the highest and second highest 15x15 puzzle day correlations between RPB and next raw solve time for all 3 solvers (GMS, IS1, IS2). On the other side of the spectrum, the puzzle day with the second lowest correlation for IS2 was Thursday (r=.34). This was notable because Thursday came in as the day with the lowest correlation by a large margin (r=.18) for IS1 (see analysis linked in Introduction) as well as the second lowest correlation of any puzzle day for the GMS (.38). Thus, variability in performance on that puzzle day due to outsized heterogeneity of puzzle difficulty and gimmickry may generalize across the solver pool. Thursday puzzles had a large degree of heterogeneity, with nearly all puzzles on that day involving a "trick" of some variety (including rebuses of various flavors; see Supp. Fig. 4).* 
 
-*For the GMS, Saturday (r=.22) stood out as having a particularly low correlation between RPB and the next raw solve time. In contrast, correlations for both IS1 and IS2 on this most difficult puzzle day were actually higher than for the other late-week puzzle days (Thu and Fri). My suspicion is that this largely related to the volatility of the Saturday solver pool that the GMS was drawn from. As the most difficult puzzle day virtually every week, the Saturday solver pool may have had both a lower N to draw from for each individual puzzle as well as a much more variable roster of puzzle completers than the other puzzle days. Substantial contributions to the relatively low Saturday correlation for the GMS may have also been due to the heterogeneity of Saturday puzzles (ie, characteristically wide feature value ranges) and the high likelihood of middle-of-the-pack solvers getting "stuck" for extended stretches on one or several tough clues or answers.*
+*For the GMS, Saturday (r=.25) stood out as having a particularly low correlation between RPB and the next raw solve time. In contrast, correlations for both IS1 and IS2 on this most difficult puzzle day were actually higher than for the other late-week puzzle days (Thu and Fri). My suspicion is that this largely related to the volatility of the Saturday solver pool that the GMS was drawn from. As the most difficult puzzle day virtually every week, the Saturday solver pool may have had both a lower N to draw from for each individual puzzle as well as a much more variable roster of puzzle completers than the other puzzle days. Substantial contributions to the relatively low Saturday correlation for the GMS may have also been due to the heterogeneity of Saturday puzzles (ie, characteristically wide feature value ranges) and the high likelihood of middle-of-the-pack solvers getting "stuck" for extended stretches on one or several tough clues or answers.*
 
  # Supplementary Figures
 
@@ -279,19 +279,19 @@ GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reachin
 
 **<h4>Figure S4. Number of Rebus Squares vs IS2 Solve Time by Puzzle Day**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/abc48783-ecd2-4c9c-ad5e-e8ef8cc9aac3)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/2aed3246-10ec-4805-850a-377a4ef13918)
 *<h5>Only Thursday had an appreciable '# Rebus Squares' for IS2 solves. Rebus squares are those that must be filled with more than one letter, number or symbol for a given puzzle to be solved. There was a weak-to-moderate positive correlation for IS1 and a moderate one for GMS for Thursday, though a caveat is that the very large number of 0 rebus puzzles makes these correlations hard to interpret (ie, these are not exactly continuous distributions).*<br>
 
-*Correlation Strength by Puzzle Day: IS2: Thu: .18; GMS: Thu: .27* 
+*Correlation Strength by Puzzle Day: IS2: Thu: .2; GMS: Thu: .26* 
 
 **<h4>Figure S5. Number of Circled Squares vs IS2 Solve Time by Puzzle Day**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/597dc91b-1120-4930-87e8-5c0e975bb39d)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/474d6fb3-283e-43f7-a3dc-6e2e376855dc)
 *<h5>Circled squares were virtually non-existent in the tougher (Fri and Sat) puzzles. The modest negative correlation seen across all 15x15 puzzle days (-.11) is attributable to the fact that most 15x15 puzzles with circles appeared early in the week. The smattering of puzzles with circles on Sunday almost all fell in the middle of the solve time range regardless of '# Circles', indicating that this feature didn't likely have a major impact on solve times.*
 
 **<h4>Figure S6. Number of Shaded Squares vs IS2 Solve Time by Puzzle Day**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/7c356a5c-f81e-47c9-a176-04eba430f4d3)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/d863143c-2872-4431-9b80-edb2e4835dc7)
 *<h5>Shaded squares, like circled squares, were virtually non-existent in the tougher (Fri and Sat) puzzles. Also like with circled squares, their function is to reveal a puzzle theme and their presence may provide assistance to solvers on clues in which they are embedded. Most puzzles with shaded squares were within the bottom third of IS2 15x15 puzzle solve times, most likely due to shaded squares almost exclusively showing up only in early week puzzles. Also as with '# Circles', the smattering of Sunday puzzles almost all fell in the middle of the solve time range regardless of '# Shaded Squares', indicating that this feature also isn't likely having a major impact on solve times.* 
 
 
