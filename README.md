@@ -125,16 +125,16 @@ The majority of IS2 solves occurred in the evening (65.9% after 6 PM and 35.4% a
 
 ### Correlations of IS2 Performance on Individual Puzzles to Puzzle-Specific Features and Recent Past Performance
 
-Numerous potentially interesting features pertaining to puzzle grids, clues, and answers were obtained from XWord Info across the sample period. Features showing strong correlation to IS2 solve performance become promising candidates as input features for predictive modeling, in current forms and/or when combined in novel ways with other existing features. **Figure 10** shows correlation heatmapping separately for 15x15 puzzles (Mon-Sat) and 21x21 puzzles (Sun) for a subset of all measured features with distributions amenable to linear regression and correlation analysis (see **Supplementary Figure 2** for individual 15x15 puzzle day matrices). The Pearson correlation coefficient (r) captures linear correlation strength between a given feature and raw solve times (top row and leftmost column of correlation matrix; red indicates a strong positive correlation and green a strong negative correlation). The rightmost column/bottom row per matrix shows the correlation between IS2 raw solve times for individual puzzles and puzzle day-specific recent performance baseline (RPB). For both 15x15 puzzles and 21x21 puzzles, this (positive) correlation was stronger than any other measured feature correlation to IS2 raw solve times. This finding generates a prediction that recent (relative to a puzzle date to be predicted) solver form per puzzle day will be more predictive of performance on a novel puzzle than will be any individual grid, clue or answer feature. 
+Numerous potentially interesting features pertaining to puzzle grids, clues, and answers were obtained from XWord Info across the sample period. Features showing strong correlation to IS2 solve performance become promising candidates as input features for predictive modeling, in current forms and/or when combined in novel ways with other existing features. **Figure 10** shows correlation heatmapping separately for 15x15 puzzles (Mon-Sat) and 21x21 puzzles (Sun) for a subset of all measured features with distributions amenable to linear regression and correlation analysis (see **Supplementary Figure 3** for individual 15x15 puzzle day matrices). The Pearson correlation coefficient (r) captures linear correlation strength between a given feature and raw solve times (top row and leftmost column of correlation matrix; red indicates a strong positive correlation and green a strong negative correlation). The rightmost column/bottom row per matrix shows the correlation between IS2 raw solve times for individual puzzles and puzzle day-specific recent performance baseline (RPB). For both 15x15 puzzles and 21x21 puzzles, this (positive) correlation was stronger than any other measured feature correlation to IS2 raw solve times. This finding generates a prediction that recent (relative to a puzzle date to be predicted) solver form per puzzle day will be more predictive of performance on a novel puzzle than will be any individual grid, clue or answer feature. 
 
-As can also be seen in the **Fig. 10** correlation matrices, a number of grid, clue and answer-related features correlated strongly with each other. For example, 'Average Answer Length' and 'Freshness Factor' showed a strong negative correlation. This relationship makes intuitive sense because 'Freshness Factor' is a measure of aggregate answer rarity for a given puzzle, and longer answers have a higher likelihood of being uncommon than shorter ones. Additionally, numerous features not selected for this analysis might still be useful in predictive modeling but either had non-continuous distributions (e.g., 0 or 1 for puzzles with normal vs non-standard symmetry) or pertain to a feature that is largely specific to only one or several puzzle days (e.g. Rebuses, Circles, Shaded Squares; see **Supplementary Figures 3-5**). 
+As can also be seen in the **Fig. 10** correlation matrices, a number of grid, clue and answer-related features correlated strongly with each other. For example, 'Average Answer Length' and 'Freshness Factor' showed a strong negative correlation. This relationship makes intuitive sense because 'Freshness Factor' is a measure of aggregate answer rarity for a given puzzle, and longer answers have a higher likelihood of being uncommon than shorter ones. Additionally, numerous features not selected for this analysis might still be useful in predictive modeling but either had non-continuous distributions (e.g., 0 or 1 for puzzles with normal vs non-standard symmetry) or pertain to a feature that is largely specific to only one or several puzzle days (e.g. Rebuses, Circles, Shaded Squares; see **Supplementary Figures 4-6**). 
 
-One additional note on data inclusion time range: 2018/19 solves (n=98) have been removed for this analysis due to the relatively large degree of volatility in raw solve times seen during that initial interval of IS2's digital solving (see **Figs. 2 and 4**). Also see discussion in the next section about the tradeoff between being able to identify patterns in the relationships between features and solve times across puzzle days vs accounting for the constantly shifting baseline in performance by normalizing solve times to recent performance baseline (RPB). 
+One additional note on data inclusion time range: 2018/19 solves (n=98) have been removed for this analysis due to the relatively large degree of volatility in raw solve times seen during that initial interval of IS2's digital solving (see **Fig. 2 and Supp. Fig. 2**). Also see discussion in the next section about the tradeoff between being able to identify patterns in the relationships between features and solve times across puzzle days vs accounting for the constantly shifting baseline in performance by normalizing solve times to recent performance baseline (RPB). 
 
 **Figure 10. Correlation Heatmapping of IS2 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/6c71abea-2d2f-4e86-a8be-a3a04c6f8ee8)
-*<h5>Correlation heatmaps derived from N=861 15x15 (left panel) and N=137 21x21 (right panel) puzzles solved by IS2 from 2020-2024.*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c988e85a-5a41-4114-81db-04146d67a232)
+*<h5>Correlation heatmaps derived from N=943 15x15 (left panel) and N=148 21x21 (right panel) puzzles solved by IS2 from 2020-2024.*
 
 ###
 **Figure 11** through **Figure 22** are companion figures to the correlation heatmapping shown in **Fig. 10**. These figures show, across all 15x15 puzzle days (black) and by-puzzle-day (colors), scatterplots of select features of interest vs IS2 raw solve times at the level of individual puzzles. A feature distribution density plot (FDP) shows puzzle day-specific trends in the distribution of each plotted feature. 
@@ -151,15 +151,15 @@ Each figure caption for **Figs. 11-22** compares the correlation strength for a 
 
 **Figure 11. Number of Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/3d0e2b81-85a4-4239-b06c-4e8cd6e56c42)
-*<h5>Individual Solver 2 (IS2) solve times and '# Answers' had a moderately strong negative correlation for 15x15 puzzles (r= -.48).<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/fd97560a-73af-450f-bb51-b650654772bc)
+*<h5>Individual Solver 2 (IS2) solve times and '# Answers' had a moderately strong negative correlation for 15x15 puzzles (r= -.47).<br>
 Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles was stronger (r = -.55).<br>*
 
 *Most of the strength of the all 15x15 puzzles correlation (black) was related to the large leftward shift in the FDP for the two most difficult puzzle days (Fri and Sat). '# Answers' was strongly negatively correlated with 'Average Answer Length' (see Fig. 14) and measures of answer rarity (e.g., 'Freshness Factor'; see Fig. 20). Thus, when puzzles were difficult (Fri and Sat), this fewer answers/more long answers combination meant more answers that were rarely encountered/unique. Within the most difficult puzzle days (Fri and Sat) moderately strong correlations of the same sign (-) as the overall 15x15 puzzles correlation were seen, emphasizing this relationship. Moreover, relatively strong correlations of the reverse sign (+) were seen for the early-week puzzle days (Mon-Wed). This finding suggests that, below a particular per-clue/answer difficulty threshold mostly only attained in later-week puzzles, the time penalty incurred by having to read relatively more clues was greater than the time savings from encountering relatively fewer longer answers.*              
 
 **<h4>Figure 12. Number of Open Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c2dbd909-8e3b-4463-b0f8-34810458c03d)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/e251bd87-b625-4bb0-a84e-b0772e989c6e)
 *<h5>IS2 solve times and '# Open Squares' had a moderately strong positive correlation for 15x15 puzzles (r= .5).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .56).<br>*
 
@@ -274,7 +274,8 @@ GMS next raw solve time and GMS 'RPB' correlation strength was stronger, reachin
 
 **<h4>Figure S3. Correlation Heatmapping of IS2 Individual Puzzle Performance vs Grid, Answer and Past Performance Features by Puzzle Day (15x15 Puzzle Days)**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/390d8df0-a463-4d7d-96b0-fc21e7636cbb)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/075c68ab-3ede-4a24-8d9c-7899f37194a0)
+*<h5>N's ranged between 148 and 172 per 15x15 puzzle day*
 
 **<h4>Figure S4. Number of Rebus Squares vs IS2 Solve Time by Puzzle Day**
 
