@@ -132,8 +132,8 @@ One additional note on data inclusion time range: 2018/19 solves (n=98) have bee
 
 **Figure 10. Correlation Heatmapping of IS2 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c988e85a-5a41-4114-81db-04146d67a232)
-*<h5>Correlation heatmaps derived from N=945 15x15 (left panel) and N=148 21x21 (right panel) puzzles solved by IS2 from 2020-2024.*
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/a1928477-2987-4f63-a453-05e6f8b4a093)
+*<h5>Correlation heatmaps derived from N=952 15x15 (left panel) and N=149 21x21 (right panel) puzzles solved by IS2 from 2020-2024.*
 
 ###
 **Figure 11** through **Figure 22** are companion figures to the correlation heatmapping shown in **Fig. 10**. These figures show, across all 15x15 puzzle days (black) and by-puzzle-day (colors), scatterplots of select features of interest vs IS2 raw solve times at the level of individual puzzles. A feature distribution density plot (FDP) shows puzzle day-specific trends in the distribution of each plotted feature. 
@@ -150,7 +150,7 @@ Each figure caption for **Figs. 11-22** compares the correlation strength for a 
 
 **Figure 11. Number of Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/fd97560a-73af-450f-bb51-b650654772bc)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/402c95f0-c4f0-4721-b704-61703d64cd8b)
 *<h5>Individual Solver 2 (IS2) solve times and '# Answers' had a moderately strong negative correlation for 15x15 puzzles (r= -.47).<br>
 Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles was stronger (r = -.55).<br>*
 
@@ -158,7 +158,7 @@ Global Median Solver (GMS) correlation strength on the same set of 15x15 puzzles
 
 **<h4>Figure 12. Number of Open Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/e251bd87-b625-4bb0-a84e-b0772e989c6e)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/7ba140bf-567e-492b-9051-e1bd59b353be)
 *<h5>IS2 solve times and '# Open Squares' had a moderately strong positive correlation for 15x15 puzzles (r= .5).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .56).<br>*
 
@@ -166,15 +166,15 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .56)
     
  **<h4>Figure 13. Number of Black Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/75b17a28-b20c-452e-95d3-37bc9812b99b)
-*<h5>IS2 solve times and '# Black Squares' had a weak-to-moderate negative correlation for 15x15 puzzles (r= -.32).<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c4dbd620-e1a7-495f-8400-7ae2f2e1e54f)
+*<h5>IS2 solve times and '# Black Squares' had a weak-to-moderate negative correlation for 15x15 puzzles (r= -.31).<br>
 GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.35).<br>*
 
 *Most of the strength of the all 15x15 puzzles correlation (black) was related to the large leftward shift in the FDP for the two most difficult puzzle days (Fri and Sat), with nearly all 15x15 puzzles with <~32 black squares falling on those days. '# Black Squares' was strongly negatively correlated with both '# Open Squares' (see Fig. 12) and 'Average Answer Length' (see Fig. 14). So an increase in '# Black Squares' meant shorter, easier answers and a faster solve on average. Within Saturday a relatively strong correlation of the same sign as the all 15x15 puzzles correlation (-) was seen, emphasizing these dynamics. All other puzzle days showed negative correlations of variable strength for this solver, ranging from weak to moderate strength. This raises the possibility that there is a effect of '# Black Squares', within the feature value range of a given puzzle day, that scales to some degree with puzzle difficulty and may be of use in predictive modeling.*
 
 **<h4>Figure 14. Average Answer Length**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/de15da76-344f-4f4d-80bc-7eec3dcf57a0)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/1e148219-bf90-4f86-90e5-b1b0659220bd)
 *<h5>IS2 solve times and 'Average Answer Length' had a moderately strong positive correlation for 15x15 puzzles (r= .56).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of strong correlation (r = .66).<br>*
 
@@ -184,9 +184,9 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching
 
 **<h4>Figure 15. Number of Cheater Squares**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/ab2953e2-6f82-4994-8569-e27406c654ec)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/712bf532-6918-44d2-9cf0-e433f024b797)
 *<h5>IS2 solve times and '# Cheater Squares' had a weak positive correlation for 15x15 puzzles (r= .13).<br>
-GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .19).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .2).<br>*
 
 *Cheater Squares are black squares than can be removed without affecting the overall word count of the grid. These squares make construction easier (hence their name). It can be seen in the FDP that large numbers of them (>~10) almost exclusively appeared on the difficult puzzle days (Fri and Sat), which likely accounted for the (modest) positive correlation across all 15x15 puzzles. Saturday, with by far the widest feature value range of any of the 15x15 puzzle days, showed a moderate reverse sign (-) correlation. Each of the other 15x15 puzzle days except for Friday also showed some degree of reverse sign (-) correlation. This is not really at odds with the overall 15x15 positive correlation, since these squares are ultimately just black squares even if they facilitate tricky constructions for difficult puzzles. Add enough of them at a given puzzle difficulty level and they will reduce solve time simply by lowering the amount of fill. Incidentally, the reason cheater squares were only rarely seen in odd numbers is the NYT general requirement for grid symmetry.*
 
@@ -194,23 +194,23 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .19)
 
 **<h4>Figure 16. Number of Fill-in-the-Blank Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/76785960-daf7-45f2-bd89-b2d6e2d9de9d)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/03bf1626-ec14-4e31-b495-aca131d46426)
 *<h5>IS2 solve times and '# Fill-in-the-Blank Answers' had a weak-to-moderate negative correlation for 15x15 puzzles (r= -.24).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.26).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.25).<br>*
 
 *Most of the strength of this weak-to-moderate correlation for all 15x15 puzzles was related to the rightward shift in the FDP for Monday. Along with the easiest puzzle day employing the largest dose of '#Fill-in-the-Blank', the hardest puzzle day (Saturday) was also slightly left-shifted relative to the other 15x15 puzzle days. There were moderate correlations of the same sign (-) as the all 15x15 puzzles correlation for Friday and Saturday, and it does appear that feature values on the extremes were associated with impacts on solve time (slower times with very few '# Fill-in-the-Blank', faster times with relatively many). For the other puzzle days, the within-day correlations were weak. This suggests that the impact of this feature on solve times may interact with puzzle difficulty.* 
  
 **<h4>Figure 17. Scrabble Average**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/994fca4e-75dd-4cfd-8bf6-b041c84644ce)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/38a2b4c2-8830-437f-8d82-ce8bc4ebacb0)
 *<h5>IS2 solve times and 'Scrabble Average' had a weak-to-nonexistent negative correlation for 15x15 puzzles (r= <-.01).<br>
-GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.02).<br>*
+GMS correlation strength on the same set of 15x15 puzzles was slightly stronger (r = -.03).<br>*
 
 *'Scrabble Average' is another proprietary XWord Info measure, in which each letter in the answer grid is assigned its equivalent value in Scrabble. Since tile values in Scrabble increase with rarity of letter frequency in English texts, it would make sense that a higher value for this feature would be associated with *answers* of greater rarity. The more difficult 15x15 puzzle days (Thu-Sat) did show this tendency with (modest) positive correlations, suggesting that maybe there's a difficulty threshold for that relationship to manifest. Furthermore, 'Scrabble Average' had only moderate positive correlations with other more direct measures of answer rarity both across 15x15 puzzles (see Fig. 9) and specifically within the later-week puzzle days (see Supp. Fig. 1). Given that these more direct measures of answer rarity DID have strong positive correlations to solve times (see Figs. 18-20), this feature is a candidate to either be left out of predictive modeling entirely or to be combined with other answer rarity/difficulty measures to generate a novel predictive feature of slightly different flavor.*
 
 **<h4>Figure 18. Number of Scrabble Illegal Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/c9adb8f7-2ea0-4383-8cd3-3d87eb98b082)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/8bde88fb-418a-4f52-8d73-cf44d9961e7d)
 *<h5>IS2 solve times and '# Scrabble Illegal' had a weak positive correlation for 15x15 puzzles (r= .13).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .18).<br>*
 
@@ -218,7 +218,7 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .18)
     
  **<h4>Figure 19. Number of Unique Answers**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/9d43545f-976a-40e2-bd9d-2bf4bc14ca11)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/7c304b20-d3e9-4ba8-8e02-88cdf6252de0)
 *<h5>IS2 solve times and '# Unique Answers' had a weak-to-moderate positive correlation for 15x15 puzzles (r= .31).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .39).<br>*
 
@@ -226,8 +226,8 @@ GMS correlation strength on the same set of 15x15 puzzles was stronger (r = .39)
 
 **<h4>Figure 20. Freshness Factor**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/28bd6981-9df1-4081-908d-0eb3f774d8b6)
-*<h5>IS2 solve times and 'Freshness Factor' had a moderately strong positive correlation for 15x15 puzzles (r= .57).<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/d698f834-b68f-4375-bb88-f7e116baa9bb)
+*<h5>IS2 solve times and 'Freshness Factor' had a moderately strong positive correlation for 15x15 puzzles (r= .56).<br>
 GMS correlation strength on the same set of 15x15 puzzles was considerably stronger, reaching the level of strong correlation (r = .67).<br>*
 
 *<h5>'Freshness Factor' is another proprietary XWord Info measure that assesses the aggregate relative novelty of all answers in a given crossword puzzle as compared to those in all other crossword puzzles in the NYT archive. The much stronger correlation to IS2 raw solve times as compared to that for '# Unique Answers' suggests that there's much to be gained by taking a graded, as opposed to all-or-none, approach in assessing answer rarity. Overall, this feature had the strongest correlation with IS2 solve times of any grid, clue or answer feature evaluated (but see Fig. 22 for a past performance feature with a stronger correlation to raw solve times).* 
@@ -236,7 +236,7 @@ GMS correlation strength on the same set of 15x15 puzzles was considerably stron
 
 **<h4>Figure 21. Number of Wordplay Clues**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/25278587-2f9e-4193-8802-b86adda3f9d8)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/d2567b75-163f-445b-974c-f7e4a0e08a38)
 *<h5>IS2 solve times and '# Wordplay Clues' had a moderate positive correlation for 15x15 puzzles (r= .31).<br>
 GMS correlation strength on the same set of 15x15 puzzles was substantially stronger (r = .44).<br>*
 
