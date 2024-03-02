@@ -18,9 +18,9 @@ GMSTs improved on each puzzle day over the complete set of puzzles (N=2,246) iss
 
 **Figure 1. GMS Solve Time Overview by Puzzle Day: 10-Puzzle Moving Averages and Distributions of Raw Values**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/1cca85cf-7874-41a4-aad7-24552820a957)
-*<h5>GMS Final (as of Feb. 24, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
-*Sun: 29.0, Mon: 5.7, Tue: 8.1, Wed: 11.9, Thu: 17.6, Fri: 17.7, Sat: 19.1*<br>
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/83521174-66a8-4740-a2c7-d8769fd0b974)
+*<h5>GMS Final (as of Mar. 1, 2024) 10-puzzle moving average of solve time (m), per puzzle day:*<br>
+
 
 ## Results
 ### Individual Solver 2 (IS2) Performance Over Time
