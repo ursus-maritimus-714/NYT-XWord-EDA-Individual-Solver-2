@@ -133,7 +133,7 @@ One additional note on data inclusion time range: 2018/19 solves (n=98) have bee
 **<h4>Figure 10. Correlation Heatmapping of IS2 Raw Solve Times vs Grid, Clue, Answer and Past Performance Features**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/9a18ca4d-8006-4f9e-94a9-22867841f12b)
-*<h5>Correlation heatmaps derived from N=977 15x15 (left panel) and N=152 21x21 (right panel) puzzles solved by IS2 from 2020-2024.*
+*<h5>Correlation heatmaps derived from N=978 15x15 (left panel) and N=152 21x21 (right panel) puzzles solved by IS2 from 2020-2024.*
 
 ###
 **Figure 11** through **Figure 22** are companion figures to the correlation heatmapping shown in **Fig. 10**. These figures show, across all 15x15 puzzle days (black) and by-puzzle-day (colors), scatterplots of select features of interest vs IS2 raw solve times at the level of individual puzzles. A feature distribution density plot (FDP) shows puzzle day-specific trends in the distribution of each plotted feature. 
@@ -175,7 +175,7 @@ GMS correlation strength on the same set of 15x15 puzzles was slightly stronger 
 **<h4>Figure 14. Average Answer Length**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/b9a8af42-859e-47a5-a527-0ecc730b2fc3)
-*<h5>IS2 solve times and 'Average Answer Length' had a moderately strong positive correlation for 15x15 puzzles (r= .56).<br>
+*<h5>IS2 solve times and 'Average Answer Length' had a moderately strong positive correlation for 15x15 puzzles (r= .55).<br>
 GMS correlation strength on the same set of 15x15 puzzles was stronger, reaching the level of strong correlation (r = .66).<br>*
 
 *The moderately strong all 15x15 puzzles correlation was related to the large rightward shift in the FDP for the two most difficult puzzle days (Fri and Sat). Saturday also showed a relatively strong positive correlation across a wide range of feature values, with 'Average Answer Length' >~5.7 associated with mostly slower solves. As already discussed in the context of Figs. 11 and 12, 'Average Answer Length' was strongly negatively correlated with '# Answers' (see Fig. 11) and strongly positively correlated with measures of answer rarity (e.g. 'Freshness Factor; see Fig. 20). So it makes intuitive sense that as 'Average Answer Length' increased, particularly on difficult puzzle days, the answers themselves became more difficult and slowed down solve times even as they decreased in absolute number.* 
@@ -244,7 +244,7 @@ GMS correlation strength on the same set of 15x15 puzzles was substantially stro
 
 **<h4>Figure 22. Recent Performance Baseline (RPB)**
 
-![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/654edf14-a4f6-497c-9eec-170d88d56128)
+![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/cf8755a9-646f-462e-bb15-e31d1b9d22a0)
 *<h5>IS2 next raw solve time and IS2 Recent Performance Baseline (RPB) had a strong positive correlation on 15x15 puzzles (r= .73).<br>
 GMS next raw solve time and GMS RPB correlation strength was stronger, reaching the level of very strong correlation (r = .87).<br>*
 
