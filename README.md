@@ -50,7 +50,7 @@ IS2's per puzzle day 10-puzzle moving averages across the sample period are show
 ###
 Because >60% of IS2' total solves (n=741) took place in 2023 or 2024, and there was such rapid and dramatic improvement over the latter ~1/3 of that time range, zoom-in and 2-interval partition of this time range is depicted below in **Figure 4**. IS2 completed n= 494 (66.7%) of these solves in the final 5 months of this time range, spread roughly equivalently across puzzle days. The dramatically improved solve performance (Sat median solve time, for ex., dropped from 38.5 to 21.8 minutes) during this period was likely enhanced by the high volume of solving in a condensed time frame.    
 
-**Figure 4. IS2 Solve Performance in 2023-2024**
+**<h4>Figure 4. IS2 Solve Performance in 2023-2024**
 
 ![image](https://github.com/ursus-maritimus-714/NYT-XWord-EDA-Individual-Solver-2/assets/90933302/f9827a30-d716-4681-bc9a-bc2aebb60345)
 *<h5>Median[IQR] solve time (m), per puzzle day, per solve interval:*<br>
